@@ -1,0 +1,5932 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="33">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<token name="AnimationWeightedBlendFix">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="ClientAnimatorThrottling">0</token>
+			<string name="CollisionGroups">Default^0^-1</string>
+			<Ref name="CurrentCamera">RBXD9CA75C3B12A4094A55915BE3D21DC14</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<float name="Gravity">196.199997</float>
+			<token name="InterpolationThrottling">0</token>
+			<token name="LevelOfDetail">0</token>
+			<token name="MeshPartHeadsAndAccessories">0</token>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<CoordinateFrame name="ModelMeshCFrame">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+			<Vector3 name="ModelMeshSize">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<string name="Name">Workspace</string>
+			<bool name="NeedsPivotMigration">false</bool>
+			<token name="PhysicsSteppingMethod">0</token>
+			<Ref name="PrimaryPart">null</Ref>
+			<token name="SignalBehavior">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<bool name="StreamingEnabled">false</bool>
+			<int name="StreamingMinRadius">64</int>
+			<token name="StreamingPauseMode">0</token>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TerrainWeldsFixed">true</bool>
+			<bool name="TouchesUseCollisionGroups">false</bool>
+			<OptionalCoordinateFrame name="WorldPivotData">
+				<CFrame>
+					<X>0</X>
+					<Y>-10</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+			</OptionalCoordinateFrame>
+		</Properties>
+		<Item class="Camera" referent="RBXD9CA75C3B12A4094A55915BE3D21DC14">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-84.1182785</X>
+					<Y>20.6454105</Y>
+					<Z>-17.9385891</Z>
+					<R00>-0.30648753</R00>
+					<R01>0.487176865</R01>
+					<R02>-0.81775558</R02>
+					<R10>-1.4901163e-08</R10>
+					<R11>0.859100103</R11>
+					<R12>0.51180774</R12>
+					<R20>0.951874733</R20>
+					<R21>0.156862706</R21>
+					<R22>-0.263303429</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<token name="FieldOfViewMode">0</token>
+				<CoordinateFrame name="Focus">
+					<X>-64.5528564</X>
+					<Y>8.40002251</Y>
+					<Z>-11.638855</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="34">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-10</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4284636770</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Baseplate</string>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>20</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX5FC059EFC19446AFBD8C1F56BF68FF0D">
+			<Properties>
+				<token name="AcquisitionMethod">0</token>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="Decoration">false</bool>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0.0500000007</R>
+					<G>0.330000013</G>
+					<B>0.360000014</B>
+				</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="28">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBXBA1FF397EC4A4AF69DDFCE82EF0FCB79">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBX7A1C62375CF84F5E9862F6AAD52E82B6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBX6B2559A9E3CF4368979633072251ABB7">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BubbleChatEnabled">false</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX2799E73F681945398989C17D1853933E">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXEEAFD259B06E40ABB7A49F00D17B3384">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">0</int>
+			<float name="RespawnTime">5</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBX7B5F74DFE74048BC8C2EE564CC9A40FF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedFirst</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="RBX3AEAE4430A5F464E855FA6DF41F85444">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Game</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="TweenService" referent="RBXE21DC137A1924D98B6E7190B7C502A0B">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TweenService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PermissionsService" referent="RBXF8A40AD8FA8C4EBB983EE36C5732A55C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PermissionsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PlayerEmulatorService" referent="RBX9B4C28AC44F04AEFA69098496605CED2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="DEPRECATED_SerializedEmulatedPolicyInfo"></string>
+			<string name="EmulatedCountryCode"></string>
+			<string name="EmulatedGameLocale"></string>
+			<string name="Name">PlayerEmulatorService</string>
+			<bool name="PlayerEmulationEnabled">false</bool>
+			<BinaryString name="SerializedEmulatedPolicyInfo"></BinaryString>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StudioData" referent="RBX3662BD0320BA4DE0A39CB109427EE2FC">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int64 name="CommitInflightAuthorId">0</int64>
+			<string name="CommitInflightGuid"></string>
+			<int name="CommitInflightPlaceVersion">0</int>
+			<bool name="EnableScriptCollabByDefaultOnLoad">false</bool>
+			<string name="Name">StudioData</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<int64 name="SrcPlaceId">0</int64>
+			<int64 name="SrcUniverseId">0</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="29">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">400</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">true</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<token name="LoadCharacterLayeredClothing">0</token>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="30">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterPlayerScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Folder" referent="31">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Game</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="LocalScript" referent="32">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">ClientRuntime</string>
+						<string name="ScriptGuid">{6E157E0E-AACC-46F1-9BEF-0316C1367792}</string>
+						<ProtectedString name="Source"><![CDATA[local Knit = require(game:GetService("ReplicatedStorage").Knit)
+
+Knit.Modules = script.Parent.Modules
+
+Knit.AddControllers(script.Parent.Controllers)
+
+Knit.Start():Catch(warn)]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="Folder" referent="RBX59374AF61D5741A7B057D26A5A9B3234">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<string name="Name">Controllers</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="ModuleScript" referent="RBX683133C3ACFD44539B1C7566C7372468">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">PlacementController</string>
+							<string name="ScriptGuid">{BC14E317-24F3-4213-AEA7-F207254FCD74}</string>
+							<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Knit = require(ReplicatedStorage.Knit)
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local PlayerGui = Player:WaitForChild('PlayerGui')
+local ScreenGui = PlayerGui:WaitForChild('ScreenGui')
+local Mouse = require(Knit.Modules.Mouse)
+local Structures = ReplicatedStorage.Structures
+local camera = workspace.CurrentCamera
+
+local PlacementController = Knit.CreateController { Name = "PlacementController" }
+
+function PlacementController:KnitStart()
+    local PlacementService = Knit.GetService("PlacementService")
+    local ToolbarFrame = ScreenGui.ToolbarFrame
+    local mouse = Mouse.new()
+    local placingStructure = false
+    local HumanoidRootPart = Player.Character.HumanoidRootPart
+    local clientStructure
+    local structurePosition
+    local raycastParams = RaycastParams.new()
+    local yOrientation = 0
+
+    local renderSteppedConnection = RunService.RenderStepped:Connect(function()
+        if placingStructure then
+                mouse:Raycast(raycastParams):Match {
+                    Some = function(raycastResult)
+                        local position = raycastResult.Position
+
+                        -- ENHANCEMENT: Add snapping if hit another structure
+
+                        local newCFrameAngle = CFrame.Angles(0, math.rad(yOrientation), 0)
+                        local yBuildingOffset = clientStructure.Size.Y / 2
+                        local newCFrame = CFrame.new(position.X, position.Y + yBuildingOffset, position.Z) 
+                        clientStructure.CFrame = newCFrame * newCFrameAngle
+                    end;
+                    None = function()
+                    end;
+                }
+        end
+    end)
+
+    local startPlacingStructure = function(structureName)
+        if not placingStructure then
+            placingStructure = true
+
+            clientStructure = Structures:FindFirstChild(structureName):Clone()
+            clientStructure.BrickColor = BrickColor.new("Forest green")
+            clientStructure.Material = "Neon"
+            clientStructure.CanCollide = false
+            clientStructure.CastShadow = false
+            clientStructure.Transparency = 0.5
+            clientStructure.Parent = workspace
+
+            local startingCFrame = CFrame.new(0, 0, -15)
+            clientStructure.CFrame = HumanoidRootPart.CFrame:ToWorldSpace(startingCFrame)
+
+            raycastParams.FilterDescendantsInstances = {Player.Character, clientStructure}
+        end
+    end
+
+    for _, button in pairs(ToolbarFrame:GetChildren()) do
+        if button:IsA("TextButton") then
+            button.MouseButton1Up:Connect(function()
+                startPlacingStructure(button.Name)
+            end)
+        end
+    end
+
+    mouse.LeftDown:Connect(function()
+        if placingStructure and clientStructure then
+           local placedStructure = PlacementService:RequestPlacement(clientStructure.Name, clientStructure.CFrame)
+
+           if placedStructure then
+              placingStructure = false
+              clientStructure:Destroy() 
+           end
+        end
+    end)
+end
+
+function PlacementController:KnitInit()
+    print("PlacementController init")
+end
+
+return PlacementController]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Folder" referent="RBX8840C98A4B164869AE1B94AED82AC94A">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<string name="Name">Modules</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="ModuleScript" referent="RBX98C6C95E80E445CC96449415E4BDA4B9">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">Mouse</string>
+							<string name="ScriptGuid">{0A33866C-1B68-4841-8AEC-3EDF1ACA119A}</string>
+							<ProtectedString name="Source"><![CDATA[local Knit = require(game:GetService("ReplicatedStorage").Knit)
+local Maid = require(Knit.Util.Maid)
+local Signal = require(Knit.Util.Signal)
+local Option = require(Knit.Util.Option)
+
+local UserInputService = game:GetService("UserInputService")
+
+local DISTANCE = 1000
+
+local camera = workspace.CurrentCamera
+
+local Mouse = {}
+Mouse.__index = Mouse
+
+function Mouse.new()
+	local self = setmetatable({}, Mouse)
+
+	self._maid = Maid.new()
+
+	self.LeftDown = Signal.new(self._maid)
+	self.LeftUp = Signal.new(self._maid)
+	self.RightDown = Signal.new(self._maid)
+	self.RightUp = Signal.new(self._maid)
+
+	self._maid:GiveTask(UserInputService.InputBegan:Connect(function(input, processed)
+		if (processed) then return end
+		if (input.UserInputType == Enum.UserInputType.MouseButton1) then
+			self.LeftDown:Fire()
+		elseif (input.UserInputType == Enum.UserInputType.MouseButton2) then
+			self.RightDown:Fire()
+		end
+	end))
+
+	self._maid:GiveTask(UserInputService.InputEnded:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1) then
+			self.LeftUp:Fire()
+		elseif (input.UserInputType == Enum.UserInputType.MouseButton2) then
+			self.RightUp:Fire()
+		end
+	end))
+
+	return self
+end
+
+-- Raycast from mouse location on the screen to the ground
+-- ENHANCEMENT: Add a max distance from player location to restrict how far raycast will go
+function Mouse:Raycast(raycastParams)
+	local mouseLocation = UserInputService:GetMouseLocation()
+	local mouseRay = camera:ViewportPointToRay(mouseLocation.X, mouseLocation.Y)
+	local result = workspace:Raycast(mouseRay.Origin, mouseRay.Direction * DISTANCE, raycastParams)
+	if (result) then
+		return Option.Some(result)
+	else
+		return Option.None
+	end
+end
+
+function Mouse:Destroy()
+	self._maid:Destroy()
+end
+
+return Mouse]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBXA9B2855308304D35B3B2BC68C6657B2B">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterCharacterScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX8FC3096D27164EB1ADCB121373C09101">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterPack</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX126D178F894749DE995262C3EC95FE75">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="VirtualCursorMode">0</token>
+		</Properties>
+		<Item class="ScreenGui" referent="RBX2EF6464B706447EFBEC258A2443B40B1">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoLocalize">true</bool>
+				<int name="DisplayOrder">0</int>
+				<bool name="Enabled">true</bool>
+				<bool name="IgnoreGuiInset">false</bool>
+				<string name="Name">ScreenGui</string>
+				<bool name="ResetOnSpawn">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<token name="ZIndexBehavior">1</token>
+			</Properties>
+			<Item class="ScrollingFrame" referent="RBX9CFB58A4EA34478496B5F4A46F02E75E">
+				<Properties>
+					<bool name="Active">true</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="AutoLocalize">true</bool>
+					<token name="AutomaticCanvasSize">0</token>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<float name="BackgroundTransparency">0.5</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">1</int>
+					<Content name="BottomImage"><url>rbxasset://textures/ui/Scroll/scroll-bottom.png</url></Content>
+					<Vector2 name="CanvasPosition">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<UDim2 name="CanvasSize">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>2</YS>
+						<YO>0</YO>
+					</UDim2>
+					<bool name="ClipsDescendants">true</bool>
+					<bool name="Draggable">false</bool>
+					<token name="ElasticBehavior">0</token>
+					<token name="HorizontalScrollBarInset">0</token>
+					<int name="LayoutOrder">0</int>
+					<Content name="MidImage"><url>rbxasset://textures/ui/Scroll/scroll-middle.png</url></Content>
+					<string name="Name">ToolbarFrame</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0.681265235</XS>
+						<XO>0</XO>
+						<YS>0.253873676</YS>
+						<YO>0</YO>
+					</UDim2>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<Color3 name="ScrollBarImageColor3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<float name="ScrollBarImageTransparency">0</float>
+					<int name="ScrollBarThickness">12</int>
+					<token name="ScrollingDirection">4</token>
+					<bool name="ScrollingEnabled">true</bool>
+					<bool name="Selectable">true</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<UDim2 name="Size">
+						<XS>0</XS>
+						<XO>330</XO>
+						<YS>0</YS>
+						<YO>360</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="TopImage"><url>rbxasset://textures/ui/Scroll/scroll-top.png</url></Content>
+					<token name="VerticalScrollBarInset">0</token>
+					<token name="VerticalScrollBarPosition">0</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+				<Item class="TextButton" referent="RBXB0819A78BF67474ABC9B0B4D968C01EC">
+					<Properties>
+						<bool name="Active">true</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoButtonColor">true</bool>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<int name="LayoutOrder">0</int>
+						<float name="LineHeight">1</float>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<bool name="Modal">false</bool>
+						<string name="Name">WoodWall</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.195443451</XS>
+							<XO>0</XO>
+							<YS>0.0244338717</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="RichText">false</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">true</bool>
+						<bool name="Selected">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>200</XO>
+							<YS>0</YS>
+							<YO>50</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<string name="Text">Wood Wall</string>
+						<Color3 name="TextColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">36</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">0</token>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+				<Item class="TextButton" referent="RBX7BD19D7EA0F84B7585520600A1A71E69">
+					<Properties>
+						<bool name="Active">true</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoButtonColor">true</bool>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<token name="Font">3</token>
+						<int name="LayoutOrder">0</int>
+						<float name="LineHeight">1</float>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<bool name="Modal">false</bool>
+						<string name="Name">StoneWall</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.195443451</XS>
+							<XO>0</XO>
+							<YS>0.0756853595</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="RichText">false</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">true</bool>
+						<bool name="Selected">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>200</XO>
+							<YS>0</YS>
+							<YO>50</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<string name="Text">Stone Wall</string>
+						<Color3 name="TextColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">36</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">0</token>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LocalizationService" referent="RBXE9F74989CF85432792F14304B0674203">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LocalizationService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBXED77AB336A7B4FAE966967869655B375">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Teleport Service</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBXE769EA01338C4968A659FC193A89D41A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CollectionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBXCE48DB9948884F2788A1ABB790DAB85A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX87D5FDD3E47E4EDCB7950FB2EC3FB275">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Geometry</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBX56FB928752A442018E2415F9071A26FD">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">InsertService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="StringValue" referent="RBXFAAF5F6C947D40D6BBE0DDA4537F7949">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">InsertionHash</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<string name="Value">{CF64B83F-89B5-46E6-B9E4-5C163441CE31}</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="GamePassService" referent="RBXE195C4A5F7864D8DB940D5F4B9625825">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">GamePassService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX4721955FDBD040948B8CDAB52BF71EB3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBXD80690625662451C8342E13CB6E98A4C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CookiesService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBXFCC181F168E441B4B5180F63D500D3D2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VRService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBXBEA790E284B448259819435F7838C562">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ContextActionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBXB713EA99598A4CE789A0213A4E2F9499">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX3885E6F6DEA94D4D84BEA32CDBFFCC5C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AssetService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBXD24BB6BD78304810A567C6B353F02B94">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TouchInputService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AnalyticsService" referent="RBXA22DD624485747B983CF0E74628B7FD0">
+		<Properties>
+			<string name="ApiKey"></string>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AnalyticsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX1F0787AF24F14D2C8195D685DAF245E2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Selection</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="25">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="26">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Game</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Script" referent="27">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ServerRuntime</string>
+					<string name="ScriptGuid">{843E3BE5-CE83-4034-9080-1F1595D147CC}</string>
+					<ProtectedString name="Source"><![CDATA[local Knit = require(game:GetService("ReplicatedStorage").Knit)
+
+Knit.AddServices(script.Parent.Services)
+
+Knit.Start():Catch(warn)
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="RBX46AB8A808FDE459EBB007A4E1E16DF6A">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Services</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBX4EF960FEA6AD4B10B974D9506BC2BB79">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">PlacementService</string>
+						<string name="ScriptGuid">{AF8C6B8B-A15E-4ED5-B124-74854E4E4F07}</string>
+						<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Knit = require(ReplicatedStorage.Knit)
+local Structures = ReplicatedStorage.Structures 
+
+local PlacementService = Knit.CreateService {
+	Name = "PlacementService";
+	Client = {};
+}
+
+function PlacementService.Client:RequestPlacement(player, structureName, structureCFrame)
+	local structure = Structures:FindFirstChild(structureName):Clone()
+	local placed = false
+
+	if structure then
+		structure.CFrame = structureCFrame
+		structure.Parent = workspace
+		placed = true
+	end 
+
+	return placed
+end
+
+function PlacementService:KnitStart()
+	
+end
+
+function PlacementService:KnitInit()
+	print("PlacementService initialized")
+end
+
+return PlacementService]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ServerStorage" referent="RBX33FB8E4492B544768069C5A2D83F1366">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ServerStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="1">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="ModuleScript" referent="2">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Knit</string>
+				<string name="ScriptGuid">{464E5A01-6829-499A-B925-7A1F9A2D469D}</string>
+				<ProtectedString name="Source"><![CDATA[if (game:GetService("RunService"):IsServer()) then
+	return require(script.KnitServer)
+else
+	script.KnitServer:Destroy()
+	return require(script.KnitClient)
+end]]></ProtectedString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="ModuleScript" referent="3">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">KnitClient</string>
+					<string name="ScriptGuid">{1833148C-DCA1-42A4-B5F0-2DF015037904}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+
+	Knit.CreateController(controller): Controller
+	Knit.AddControllers(folder): Controller[]
+	Knit.AddControllersDeep(folder): Controller[]
+	Knit.GetService(serviceName): Service
+	Knit.GetController(controllerName): Controller
+	Knit.Start(): Promise<void>
+	Knit.OnStart(): Promise<void>
+
+--]]
+
+
+local KnitClient = {}
+
+KnitClient.Version = script.Parent.Version.Value
+KnitClient.Player = game:GetService("Players").LocalPlayer
+KnitClient.Controllers = {}
+KnitClient.Util = script.Parent.Util
+
+local Promise = require(KnitClient.Util.Promise)
+local Thread = require(KnitClient.Util.Thread)
+local Loader = require(KnitClient.Util.Loader)
+local Ser = require(KnitClient.Util.Ser)
+local ClientRemoteSignal = require(KnitClient.Util.Remote.ClientRemoteSignal)
+local ClientRemoteProperty = require(KnitClient.Util.Remote.ClientRemoteProperty)
+local TableUtil = require(KnitClient.Util.TableUtil)
+
+local services = {}
+local servicesFolder = script.Parent:WaitForChild("Services")
+
+local started = false
+local startedComplete = false
+local onStartedComplete = Instance.new("BindableEvent")
+
+
+local function BuildService(serviceName, folder)
+	local service = {}
+	if (folder:FindFirstChild("RF")) then
+		for _,rf in ipairs(folder.RF:GetChildren()) do
+			if (rf:IsA("RemoteFunction")) then
+				service[rf.Name] = function(self, ...)
+					return Ser.DeserializeArgsAndUnpack(rf:InvokeServer(Ser.SerializeArgsAndUnpack(...)))
+				end
+				service[rf.Name .. "Promise"] = function(self, ...)
+					local args = Ser.SerializeArgs(...)
+					return Promise.new(function(resolve)
+						resolve(Ser.DeserializeArgsAndUnpack(rf:InvokeServer(table.unpack(args, 1, args.n))))
+					end)
+				end
+			end
+		end
+	end
+	if (folder:FindFirstChild("RE")) then
+		for _,re in ipairs(folder.RE:GetChildren()) do
+			if (re:IsA("RemoteEvent")) then
+				service[re.Name] = ClientRemoteSignal.new(re)
+			end
+		end
+	end
+	if (folder:FindFirstChild("RP")) then
+		for _,rp in ipairs(folder.RP:GetChildren()) do
+			if (rp:IsA("ValueBase") or rp:IsA("RemoteEvent")) then
+				service[rp.Name] = ClientRemoteProperty.new(rp)
+			end
+		end
+	end
+	services[serviceName] = service
+	return service
+end
+
+
+function KnitClient.CreateController(controller)
+	assert(type(controller) == "table", "Controller must be a table; got " .. type(controller))
+	assert(type(controller.Name) == "string", "Controller.Name must be a string; got " .. type(controller.Name))
+	assert(#controller.Name > 0, "Controller.Name must be a non-empty string")
+	assert(KnitClient.Controllers[controller.Name] == nil, "Service \"" .. controller.Name .. "\" already exists")
+	controller = TableUtil.Assign(controller, {
+		_knit_is_controller = true;
+	})
+	KnitClient.Controllers[controller.Name] = controller
+	return controller
+end
+
+
+function KnitClient.AddControllers(folder)
+	return Loader.LoadChildren(folder)
+end
+
+
+function KnitClient.AddControllersDeep(folder)
+	return Loader.LoadDescendants(folder)
+end
+
+
+function KnitClient.GetService(serviceName)
+	assert(type(serviceName) == "string", "ServiceName must be a string; got " .. type(serviceName))
+	local folder = servicesFolder:FindFirstChild(serviceName)
+	assert(folder ~= nil, "Could not find service \"" .. serviceName .. "\"")
+	return services[serviceName] or BuildService(serviceName, folder)
+end
+
+
+function KnitClient.GetController(controllerName)
+	return KnitClient.Controllers[controllerName]
+end
+
+
+function KnitClient.Start()
+
+	if (started) then
+		return Promise.Reject("Knit already started")
+	end
+
+	started = true
+
+	local controllers = KnitClient.Controllers
+
+	return Promise.new(function(resolve)
+
+		-- Init:
+		local promisesStartControllers = {}
+		for _,controller in pairs(controllers) do
+			if (type(controller.KnitInit) == "function") then
+				table.insert(promisesStartControllers, Promise.new(function(r)
+					controller:KnitInit()
+					r()
+				end))
+			end
+		end
+
+		resolve(Promise.All(promisesStartControllers))
+
+	end):Then(function()
+
+		-- Start:
+		for _,controller in pairs(controllers) do
+			if (type(controller.KnitStart) == "function") then
+				Thread.SpawnNow(controller.KnitStart, controller)
+			end
+		end
+
+		startedComplete = true
+		onStartedComplete:Fire()
+
+		Thread.Spawn(function()
+			onStartedComplete:Destroy()
+		end)
+
+	end)
+
+end
+
+
+function KnitClient.OnStart()
+	if (startedComplete) then
+		return Promise.Resolve()
+	else
+		return Promise.FromEvent(onStartedComplete.Event)
+	end
+end
+
+
+return KnitClient
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="4">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">KnitServer</string>
+					<string name="ScriptGuid">{40E77E9E-5FF6-440A-86A9-27B92B1BB810}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+
+	Knit.CreateService(service): Service
+	Knit.AddServices(folder): Service[]
+	Knit.AddServicesDeep(folder): Service[]
+	Knit.Start(): Promise<void>
+	Knit.OnStart(): Promise<void>
+
+--]]
+
+
+local KnitServer = {}
+
+KnitServer.Version = script.Parent.Version.Value
+KnitServer.Services = {}
+KnitServer.Util = script.Parent.Util
+
+
+local knitRepServiceFolder = Instance.new("Folder")
+knitRepServiceFolder.Name = "Services"
+
+local Promise = require(KnitServer.Util.Promise)
+local Thread = require(KnitServer.Util.Thread)
+local Signal = require(KnitServer.Util.Signal)
+local Loader = require(KnitServer.Util.Loader)
+local Ser = require(KnitServer.Util.Ser)
+local RemoteSignal = require(KnitServer.Util.Remote.RemoteSignal)
+local RemoteProperty = require(KnitServer.Util.Remote.RemoteProperty)
+local TableUtil = require(KnitServer.Util.TableUtil)
+
+local started = false
+local startedComplete = false
+local onStartedComplete = Instance.new("BindableEvent")
+
+
+local function CreateRepFolder(serviceName)
+	local folder = Instance.new("Folder")
+	folder.Name = serviceName
+	return folder
+end
+
+
+local function GetFolderOrCreate(parent, name)
+	local f = parent:FindFirstChild(name)
+	if (not f) then
+		f = Instance.new("Folder")
+		f.Name = name
+		f.Parent = parent
+	end
+	return f
+end
+
+
+local function AddToRepFolder(service, remoteObj, folderOverride)
+	if (folderOverride) then
+		remoteObj.Parent = GetFolderOrCreate(service._knit_rep_folder, folderOverride)
+	elseif (remoteObj:IsA("RemoteFunction")) then
+		remoteObj.Parent = GetFolderOrCreate(service._knit_rep_folder, "RF")
+	elseif (remoteObj:IsA("RemoteEvent")) then
+		remoteObj.Parent = GetFolderOrCreate(service._knit_rep_folder, "RE")
+	elseif (remoteObj:IsA("ValueBase")) then
+		remoteObj.Parent = GetFolderOrCreate(service._knit_rep_folder, "RP")
+	else
+		error("Invalid rep object: " .. remoteObj.ClassName)
+	end
+	if (not service._knit_rep_folder.Parent) then
+		service._knit_rep_folder.Parent = knitRepServiceFolder
+	end
+end
+
+
+function KnitServer.IsService(object)
+	return type(object) == "table" and object._knit_is_service == true
+end
+
+
+function KnitServer.CreateService(service)
+	assert(type(service) == "table", "Service must be a table; got " .. type(service))
+	assert(type(service.Name) == "string", "Service.Name must be a string; got " .. type(service.Name))
+	assert(#service.Name > 0, "Service.Name must be a non-empty string")
+	assert(KnitServer.Services[service.Name] == nil, "Service \"" .. service.Name .. "\" already exists")
+	service = TableUtil.Assign(service, {
+		_knit_is_service = true;
+		_knit_rf = {};
+		_knit_re = {};
+		_knit_rp = {};
+		_knit_rep_folder = CreateRepFolder(service.Name);
+	})
+	if (type(service.Client) ~= "table") then
+		service.Client = {Server = service}
+	else
+		if (service.Client.Server ~= service) then
+			service.Client.Server = service
+		end
+	end
+	KnitServer.Services[service.Name] = service
+	return service
+end
+
+
+function KnitServer.AddServices(folder)
+	return Loader.LoadChildren(folder)
+end
+
+
+function KnitServer.AddServicesDeep(folder)
+	return Loader.LoadDescendants(folder)
+end
+
+
+function KnitServer.GetService(serviceName)
+	assert(type(serviceName) == "string", "ServiceName must be a string; got " .. type(serviceName))
+	return assert(KnitServer.Services[serviceName], "Could not find service \"" .. serviceName .. "\"")
+end
+
+
+function KnitServer.BindRemoteEvent(service, eventName, remoteEvent)
+	assert(service._knit_re[eventName] == nil, "RemoteEvent \"" .. eventName .. "\" already exists")
+	local re = remoteEvent._remote
+	re.Name = eventName
+	service._knit_re[eventName] = re
+	AddToRepFolder(service, re)
+end
+
+
+function KnitServer.BindRemoteFunction(service, funcName, func)
+	assert(service._knit_rf[funcName] == nil, "RemoteFunction \"" .. funcName .. "\" already exists")
+	local rf = Instance.new("RemoteFunction")
+	rf.Name = funcName
+	service._knit_rf[funcName] = rf
+	AddToRepFolder(service, rf)
+	function rf.OnServerInvoke(...)
+		return Ser.SerializeArgsAndUnpack(func(service.Client, Ser.DeserializeArgsAndUnpack(...)))
+	end
+end
+
+
+function KnitServer.BindRemoteProperty(service, propName, prop)
+	assert(service._knit_rp[propName] == nil, "RemoteProperty \"" .. propName .. "\" already exists")
+	prop._object.Name = propName
+	service._knit_rp[propName] = prop
+	AddToRepFolder(service, prop._object, "RP")
+end
+
+
+function KnitServer.Start()
+
+	if (started) then
+		return Promise.Reject("Knit already started")
+	end
+
+	started = true
+
+	local services = KnitServer.Services
+
+	return Promise.new(function(resolve)
+
+		-- Bind remotes:
+		for _,service in pairs(services) do
+			for k,v in pairs(service.Client) do
+				if (type(v) == "function") then
+					KnitServer.BindRemoteFunction(service, k, v)
+				elseif (RemoteSignal.Is(v)) then
+					KnitServer.BindRemoteEvent(service, k, v)
+				elseif (RemoteProperty.Is(v)) then
+					KnitServer.BindRemoteProperty(service, k, v)
+				elseif (Signal.Is(v)) then
+					warn("Found Signal instead of RemoteSignal (Knit.Util.RemoteSignal). Please change to RemoteSignal. [" .. service.Name .. ".Client." .. k .. "]")
+				end
+			end
+		end
+
+		-- Init:
+		local promisesInitServices = {}
+		for _,service in pairs(services) do
+			if (type(service.KnitInit) == "function") then
+				table.insert(promisesInitServices, Promise.new(function(r)
+					service:KnitInit()
+					r()
+				end))
+			end
+		end
+
+		resolve(Promise.All(promisesInitServices))
+
+	end):Then(function()
+
+		-- Start:
+		for _,service in pairs(services) do
+			if (type(service.KnitStart) == "function") then
+				Thread.SpawnNow(service.KnitStart, service)
+			end
+		end
+
+		startedComplete = true
+		onStartedComplete:Fire()
+
+		Thread.Spawn(function()
+			onStartedComplete:Destroy()
+		end)
+
+		-- Expose service remotes to everyone:
+		knitRepServiceFolder.Parent = script.Parent
+
+	end)
+
+end
+
+
+function KnitServer.OnStart()
+	if (startedComplete) then
+		return Promise.Resolve()
+	else
+		return Promise.FromEvent(onStartedComplete.Event)
+	end
+end
+
+
+return KnitServer
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="5">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Util</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="6">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Component</string>
+						<string name="ScriptGuid">{A4F5C5EC-C599-473D-948E-E3470C9B74DF}</string>
+						<ProtectedString name="Source"><![CDATA[-- Component
+-- Stephen Leitnick
+-- July 25, 2020
+
+--[[
+
+	Component.Auto(folder: Instance)
+		-> Create components automatically from descendant modules of this folder
+		-> Each module must have a '.Tag' string property
+		-> Each module optionally can have '.RenderPriority' number property
+
+	component = Component.FromTag(tag: string)
+		-> Retrieves an existing component from the tag name
+
+	Component.ObserveFromTag(tag: string, observer: (component: Component, maid: Maid) -> void): Maid
+
+	component = Component.new(tag: string, class: table [, renderPriority: RenderPriority, requireComponents: {string}])
+		-> Creates a new component from the tag name, class module, and optional render priority
+
+	component:GetAll(): ComponentInstance[]
+	component:GetFromInstance(instance: Instance): ComponentInstance | nil
+	component:GetFromID(id: number): ComponentInstance | nil
+	component:Filter(filterFunc: (comp: ComponentInstance) -> boolean): ComponentInstance[]
+	component:WaitFor(instanceOrName: Instance | string [, timeout: number = 60]): Promise<ComponentInstance>
+	component:Observe(instance: Instance, observer: (component: ComponentInstance, maid: Maid) -> void): Maid
+	component:Destroy()
+
+	component.Added(obj: ComponentInstance)
+	component.Removed(obj: ComponentInstance)
+
+	-----------------------------------------------------------------------
+
+	A component class must look something like this:
+
+		-- DEFINE
+		local MyComponent = {}
+		MyComponent.__index = MyComponent
+
+		-- CONSTRUCTOR
+		function MyComponent.new(instance)
+			local self = setmetatable({}, MyComponent)
+			return self
+		end
+
+		-- FIELDS AFTER CONSTRUCTOR COMPLETES
+		MyComponent.Instance: Instance
+
+		-- OPTIONAL LIFECYCLE HOOKS
+		function MyComponent:Init() end                     -> Called right after constructor
+		function MyComponent:Deinit() end                   -> Called right before deconstructor
+		function MyComponent:HeartbeatUpdate(dt) ... end    -> Updates every heartbeat
+		function MyComponent:SteppedUpdate(dt) ... end      -> Updates every physics step
+		function MyComponent:RenderUpdate(dt) ... end       -> Updates every render step
+
+		-- DESTRUCTOR
+		function MyComponent:Destroy()
+		end
+
+
+	A component is then registered like so:
+
+		local Component = require(Knit.Util.Component)
+		local MyComponent = require(somewhere.MyComponent)
+		local tag = "MyComponent"
+
+		local myComponent = Component.new(tag, MyComponent)
+
+
+	Components can be listened and queried:
+
+		myComponent.Added:Connect(function(instanceOfComponent)
+			-- New MyComponent constructed
+		end)
+
+		myComponent.Removed:Connect(function(instanceOfComponent)
+			-- New MyComponent deconstructed
+		end)
+
+--]]
+
+
+local Maid = require(script.Parent.Maid)
+local Signal = require(script.Parent.Signal)
+local Promise = require(script.Parent.Promise)
+local Thread = require(script.Parent.Thread)
+local TableUtil = require(script.Parent.TableUtil)
+local CollectionService = game:GetService("CollectionService")
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+
+local IS_SERVER = RunService:IsServer()
+local DEFAULT_WAIT_FOR_TIMEOUT = 60
+local ATTRIBUTE_ID_NAME = "ComponentServerId"
+
+-- Components will only work on instances parented under these descendants:
+local DESCENDANT_WHITELIST = {workspace, Players}
+
+local Component = {}
+Component.__index = Component
+
+local componentsByTag = {}
+
+local componentByTagCreated = Signal.new()
+local componentByTagDestroyed = Signal.new()
+
+
+local function IsDescendantOfWhitelist(instance)
+	for _,v in ipairs(DESCENDANT_WHITELIST) do
+		if (instance:IsDescendantOf(v)) then
+			return true
+		end
+	end
+	return false
+end
+
+
+function Component.FromTag(tag)
+	return componentsByTag[tag]
+end
+
+
+function Component.ObserveFromTag(tag, observer)
+	local maid = Maid.new()
+	local observeMaid = Maid.new()
+	maid:GiveTask(observeMaid)
+	local function OnCreated(component)
+		if (component._tag == tag) then
+			observer(component, observeMaid)
+		end
+	end
+	local function OnDestroyed(component)
+		if (component._tag == tag) then
+			observeMaid:DoCleaning()
+		end
+	end
+	do
+		local component = Component.FromTag(tag)
+		if (component) then
+			Thread.SpawnNow(OnCreated, component)
+		end
+	end
+	maid:GiveTask(componentByTagCreated:Connect(OnCreated))
+	maid:GiveTask(componentByTagDestroyed:Connect(OnDestroyed))
+	return maid
+end
+
+
+function Component.Auto(folder)
+	local function Setup(moduleScript)
+		local m = require(moduleScript)
+		assert(type(m) == "table", "Expected table for component")
+		assert(type(m.Tag) == "string", "Expected .Tag property")
+		Component.new(m.Tag, m, m.RenderPriority, m.RequiredComponents)
+	end
+	for _,v in ipairs(folder:GetDescendants()) do
+		if (v:IsA("ModuleScript")) then
+			Setup(v)
+		end
+	end
+	folder.DescendantAdded:Connect(function(v)
+		if (v:IsA("ModuleScript")) then
+			Setup(v)
+		end
+	end)
+end
+
+
+function Component.new(tag, class, renderPriority, requireComponents)
+
+	assert(type(tag) == "string", "Argument #1 (tag) should be a string; got " .. type(tag))
+	assert(type(class) == "table", "Argument #2 (class) should be a table; got " .. type(class))
+	assert(type(class.new) == "function", "Class must contain a .new constructor function")
+	assert(type(class.Destroy) == "function", "Class must contain a :Destroy function")
+	assert(componentsByTag[tag] == nil, "Component already bound to this tag")
+
+	local self = setmetatable({}, Component)
+
+	self._maid = Maid.new()
+	self._lifecycleMaid = Maid.new()
+	self._tag = tag
+	self._class = class
+	self._objects = {}
+	self._instancesToObjects = {}
+	self._hasHeartbeatUpdate = (type(class.HeartbeatUpdate) == "function")
+	self._hasSteppedUpdate = (type(class.SteppedUpdate) == "function")
+	self._hasRenderUpdate = (type(class.RenderUpdate) == "function")
+	self._hasInit = (type(class.Init) == "function")
+	self._hasDeinit = (type(class.Deinit) == "function")
+	self._renderPriority = renderPriority or Enum.RenderPriority.Last.Value
+	self._requireComponents = requireComponents or {}
+	self._lifecycle = false
+	self._nextId = 0
+
+	self.Added = Signal.new(self._maid)
+	self.Removed = Signal.new(self._maid)
+
+	local observeMaid = Maid.new()
+	self._maid:GiveTask(observeMaid)
+
+	local function ObserveTag()
+
+		local function HasRequiredComponents(instance)
+			for _,reqComp in ipairs(self._requireComponents) do
+				local comp = Component.FromTag(reqComp)
+				if (comp:GetFromInstance(instance) == nil) then
+					return false
+				end
+			end
+			return true
+		end
+
+		observeMaid:GiveTask(CollectionService:GetInstanceAddedSignal(tag):Connect(function(instance)
+			if (IsDescendantOfWhitelist(instance) and HasRequiredComponents(instance)) then
+				self:_instanceAdded(instance)
+			end
+		end))
+
+		observeMaid:GiveTask(CollectionService:GetInstanceRemovedSignal(tag):Connect(function(instance)
+			self:_instanceRemoved(instance)
+		end))
+
+		for _,reqComp in ipairs(self._requireComponents) do
+			local comp = Component.FromTag(reqComp)
+			observeMaid:GiveTask(comp.Added:Connect(function(obj)
+				if (CollectionService:HasTag(obj.Instance, tag) and HasRequiredComponents(obj.Instance)) then
+					self:_instanceAdded(obj.Instance)
+				end
+			end))
+			observeMaid:GiveTask(comp.Removed:Connect(function(obj)
+				if (CollectionService:HasTag(obj.Instance, tag)) then
+					self:_instanceRemoved(obj.Instance)
+				end
+			end))
+		end
+
+		observeMaid:GiveTask(function()
+			self:_stopLifecycle()
+			for instance in pairs(self._instancesToObjects) do
+				self:_instanceRemoved(instance)
+			end
+		end)
+
+		do
+			local b = Instance.new("BindableEvent")
+			for _,instance in ipairs(CollectionService:GetTagged(tag)) do
+				if (IsDescendantOfWhitelist(instance) and HasRequiredComponents(instance)) then
+					local c = b.Event:Connect(function()
+						self:_instanceAdded(instance)
+					end)
+					b:Fire()
+					c:Disconnect()
+				end
+			end
+			b:Destroy()
+		end
+
+	end
+
+	if (#self._requireComponents == 0) then
+		ObserveTag()
+	else
+		-- Only observe tag when all required components are available:
+		local tagsReady = {}
+		for _,reqComp in ipairs(self._requireComponents) do
+			tagsReady[reqComp] = false
+		end
+		local function Check()
+			for _,ready in pairs(tagsReady) do
+				if (not ready) then
+					return
+				end
+			end
+			ObserveTag()
+		end
+		local function Cleanup()
+			observeMaid:DoCleaning()
+		end
+		for _,requiredComponent in ipairs(self._requireComponents) do
+			tagsReady[requiredComponent] = false
+			self._maid:GiveTask(Component.ObserveFromTag(requiredComponent, function(_component, maid)
+				tagsReady[requiredComponent] = true
+				Check()
+				maid:GiveTask(function()
+					tagsReady[requiredComponent] = false
+					Cleanup()
+				end)
+			end))
+		end
+	end
+
+	componentsByTag[tag] = self
+	componentByTagCreated:Fire(self)
+	self._maid:GiveTask(function()
+		componentsByTag[tag] = nil
+		componentByTagDestroyed:Fire(self)
+	end)
+
+	return self
+
+end
+
+
+function Component:_startHeartbeatUpdate()
+	local all = self._objects
+	self._heartbeatUpdate = RunService.Heartbeat:Connect(function(dt)
+		for _,v in ipairs(all) do
+			v:HeartbeatUpdate(dt)
+		end
+	end)
+	self._lifecycleMaid:GiveTask(self._heartbeatUpdate)
+end
+
+
+function Component:_startSteppedUpdate()
+	local all = self._objects
+	self._steppedUpdate = RunService.Stepped:Connect(function(_, dt)
+		for _,v in ipairs(all) do
+			v:SteppedUpdate(dt)
+		end
+	end)
+	self._lifecycleMaid:GiveTask(self._steppedUpdate)
+end
+
+
+function Component:_startRenderUpdate()
+	local all = self._objects
+	self._renderName = (self._tag .. "RenderUpdate")
+	RunService:BindToRenderStep(self._renderName, self._renderPriority, function(dt)
+		for _,v in ipairs(all) do
+			v:RenderUpdate(dt)
+		end
+	end)
+	self._lifecycleMaid:GiveTask(function()
+		RunService:UnbindFromRenderStep(self._renderName)
+	end)
+end
+
+
+function Component:_startLifecycle()
+	self._lifecycle = true
+	if (self._hasHeartbeatUpdate) then
+		self:_startHeartbeatUpdate()
+	end
+	if (self._hasSteppedUpdate) then
+		self:_startSteppedUpdate()
+	end
+	if (self._hasRenderUpdate) then
+		self:_startRenderUpdate()
+	end
+end
+
+
+function Component:_stopLifecycle()
+	self._lifecycle = false
+	self._lifecycleMaid:DoCleaning()
+end
+
+
+function Component:_instanceAdded(instance)
+	if (self._instancesToObjects[instance]) then return end
+	if (not self._lifecycle) then
+		self:_startLifecycle()
+	end
+	self._nextId = (self._nextId + 1)
+	local id = (self._tag .. tostring(self._nextId))
+	if (IS_SERVER) then
+		instance:SetAttribute(ATTRIBUTE_ID_NAME, id)
+	end
+	local obj = self._class.new(instance)
+	obj.Instance = instance
+	obj._id = id
+	self._instancesToObjects[instance] = obj
+	table.insert(self._objects, obj)
+	if (self._hasInit) then
+		Thread.Spawn(function()
+			if (self._instancesToObjects[instance] ~= obj) then return end
+			obj:Init()
+		end)
+	end
+	self.Added:Fire(obj)
+	return obj
+end
+
+
+function Component:_instanceRemoved(instance)
+	if (not self._instancesToObjects[instance]) then return end
+	self._instancesToObjects[instance] = nil
+	for i,obj in ipairs(self._objects) do
+		if (obj.Instance == instance) then
+			if (self._hasDeinit) then
+				obj:Deinit()
+			end
+			if (IS_SERVER and instance.Parent and instance:GetAttribute(ATTRIBUTE_ID_NAME) ~= nil) then
+				instance:SetAttribute(ATTRIBUTE_ID_NAME, nil)
+			end
+			self.Removed:Fire(obj)
+			obj:Destroy()
+			obj._destroyed = true
+			TableUtil.FastRemove(self._objects, i)
+			break
+		end
+	end
+	if (#self._objects == 0 and self._lifecycle) then
+		self:_stopLifecycle()
+	end
+end
+
+
+function Component:GetAll()
+	return TableUtil.CopyShallow(self._objects)
+end
+
+
+function Component:GetFromInstance(instance)
+	return self._instancesToObjects[instance]
+end
+
+
+function Component:GetFromID(id)
+	for _,v in ipairs(self._objects) do
+		if (v._id == id) then
+			return v
+		end
+	end
+	return nil
+end
+
+
+function Component:Filter(filterFunc)
+	return TableUtil.Filter(self._objects, filterFunc)
+end
+
+
+function Component:WaitFor(instance, timeout)
+	local isName = (type(instance) == "string")
+	local function IsInstanceValid(obj)
+		return ((isName and obj.Instance.Name == instance) or ((not isName) and obj.Instance == instance))
+	end
+	for _,obj in ipairs(self._objects) do
+		if (IsInstanceValid(obj)) then
+			return Promise.Resolve(obj)
+		end
+	end
+	local lastObj = nil
+	return Promise.FromEvent(self.Added, function(obj)
+		lastObj = obj
+		return IsInstanceValid(obj)
+	end):Then(function()
+		return lastObj
+	end):Timeout(timeout or DEFAULT_WAIT_FOR_TIMEOUT)
+end
+
+
+function Component:Observe(instance, observer)
+	local maid = Maid.new()
+	local observeMaid = Maid.new()
+	maid:GiveTask(observeMaid)
+	maid:GiveTask(self.Added:Connect(function(obj)
+		if (obj.Instance == instance) then
+			observer(obj, observeMaid)
+		end
+	end))
+	maid:GiveTask(self.Removed:Connect(function(obj)
+		if (obj.Instance == instance) then
+			observeMaid:DoCleaning()
+		end
+	end))
+	for _,obj in ipairs(self._objects) do
+		if (obj.Instance == instance) then
+			Thread.SpawnNow(observer, obj, observeMaid)
+			break
+		end
+	end
+	return maid
+end
+
+
+function Component:Destroy()
+	self._maid:Destroy()
+end
+
+
+return Component]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="7">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">EnumList</string>
+						<string name="ScriptGuid">{0FA89D35-C884-4FB8-A951-4C73B6A0AEFC}</string>
+						<ProtectedString name="Source"><![CDATA[-- EnumList
+-- Stephen Leitnick
+-- January 08, 2021
+
+--[[
+
+	enumList = EnumList.new(name: string, enums: string[])
+
+	enumList:Is(item)
+
+
+	Example:
+
+		direction = EnumList.new("Direction", {"Up", "Down", "Left", "Right"})
+		leftDir = direction.Left
+		print("IsDirection", direction:Is(leftDir))
+
+--]]
+
+
+local Symbol = require(script.Parent.Symbol)
+
+local EnumList = {}
+
+
+function EnumList.new(name, enums)
+	local scope = Symbol.new(name)
+	local enumItems = {}
+	for _,enumName in ipairs(enums) do
+		enumItems[enumName] = Symbol.new(enumName, scope)
+	end
+	local self = setmetatable({
+		_scope = scope;
+	}, {
+		__index = function(_t, k)
+			if (enumItems[k]) then
+				return enumItems[k]
+			elseif (EnumList[k]) then
+				return EnumList[k]
+			else
+				error("Unknown " .. name .. ": " .. tostring(k), 2)
+			end
+		end;
+		__newindex = function()
+			error("Cannot add new " .. name, 2)
+		end;
+	})
+	return self
+end
+
+
+function EnumList:Is(obj)
+	return Symbol.IsInScope(obj, self._scope)
+end
+
+
+return EnumList]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="8">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Loader</string>
+						<string name="ScriptGuid">{47E60667-101F-4EB4-841E-96AD119D73E9}</string>
+						<ProtectedString name="Source"><![CDATA[-- Loader
+-- Stephen Leitnick
+-- January 10, 2021
+
+--[[
+
+	Loads all ModuleScripts within the given parent.
+
+	Loader.LoadChildren(parent: Instance): module[]
+	Loader.LoadDescendants(parent: Instance): module[]
+
+--]]
+
+
+local Loader = {}
+
+
+function Loader.LoadChildren(parent)
+	local modules = {}
+	for _,child in ipairs(parent:GetChildren()) do
+		if (child:IsA("ModuleScript")) then
+			local m = require(child)
+			table.insert(modules, m)
+		end
+	end
+	return modules
+end
+
+
+function Loader.LoadDescendants(parent)
+	local modules = {}
+	for _,descendant in ipairs(parent:GetDescendants()) do
+		if (descendant:IsA("ModuleScript")) then
+			local m = require(descendant)
+			table.insert(modules, m)
+		end
+	end
+	return modules
+end
+
+
+return Loader
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="9">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Maid</string>
+						<string name="ScriptGuid">{479F5E50-8271-4006-8B04-222134586F9D}</string>
+						<ProtectedString name="Source"><![CDATA[-- Maid
+-- Author: Quenty
+-- Source: https://github.com/Quenty/NevermoreEngine/blob/version2/Modules/Shared/Events/Maid.lua
+-- License: MIT (https://github.com/Quenty/NevermoreEngine/blob/version2/LICENSE.md)
+-- This module has been modified for use in AeroGameFramework
+
+--[[
+
+	maid = Maid.new()
+
+	maid:GiveTask(task)
+		> task is an event connection, function, or instance/table with a 'Destroy' method
+
+	maid:GivePromise(promise)
+		> Give the maid a promise as a task, which will call 'promise:Cancel()' on cleanup
+
+	maid:DoCleaning()
+		> Alias for Destroy
+
+	maid:Destroy()
+		> Goes through each task & disconnects events, destroys instances, and calls functions
+
+--]]
+
+local Promise = require(script.Parent.Promise)
+
+
+local Maid = {}
+Maid.ClassName = "Maid"
+
+
+function Maid.new()
+	local self = setmetatable({
+		_tasks = {};
+	}, Maid)
+	return self
+end
+
+
+--- Returns Maid[key] if not part of Maid metatable
+-- @return Maid[key] value
+function Maid:__index(index)
+	if (Maid[index]) then
+		return Maid[index]
+	else
+		return self._tasks[index]
+	end
+end
+
+
+--- Add a task to clean up
+-- @usage
+-- Maid[key] = (function)         Adds a task to perform
+-- Maid[key] = (event connection) Manages an event connection
+-- Maid[key] = (Maid)             Maids can act as an event connection, allowing a Maid to have other maids to clean up.
+-- Maid[key] = (Object)           Maids can cleanup objects with a `Destroy` method
+-- Maid[key] = nil                Removes a named task. If the task is an event, it is disconnected. If it is an object,
+--                                it is destroyed.
+function Maid:__newindex(index, newTask)
+	if (Maid[index] ~= nil) then
+		error(("'%s' is reserved"):format(tostring(index)), 2)
+	end
+
+	local tasks = self._tasks
+	local oldTask = tasks[index]
+	tasks[index] = newTask
+
+	if (oldTask) then
+		if (type(oldTask) == "function") then
+			oldTask()
+		elseif (typeof(oldTask) == "RBXScriptConnection") then
+			oldTask:Disconnect()
+		elseif (oldTask.Destroy) then
+			oldTask:Destroy()
+		elseif (Promise.Is(oldTask)) then
+			oldTask:Cancel()
+		end
+	end
+end
+
+
+--- Same as indexing, but uses an incremented number as a key.
+-- @param task An item to clean
+-- @treturn number taskId
+function Maid:GiveTask(task)
+	assert(task, "Task cannot be false or nil")
+
+	local taskId = (#self._tasks + 1)
+	self[taskId] = task
+
+	if (type(task) == "table" and (not task.Destroy) and (not Promise.Is(task))) then
+		warn("[Maid.GiveTask] - Gave table task without .Destroy\n\n" .. debug.traceback())
+	end
+
+	return taskId
+end
+
+
+function Maid:GivePromise(promise)
+	assert(Promise.Is(promise), "Expected promise")
+	if (promise:GetStatus() ~= Promise.Status.Started) then
+		return promise
+	end
+	local newPromise = Promise.Resolve(promise)
+	local id = self:GiveTask(newPromise)
+	newPromise:Finally(function()
+		self[id] = nil
+	end)
+	return newPromise
+end
+
+
+--- Cleans up all tasks.
+-- @alias Destroy
+function Maid:DoCleaning()
+	local tasks = self._tasks
+
+	-- Disconnect all events first as we know this is safe
+	for index, task in pairs(tasks) do
+		if (typeof(task) == "RBXScriptConnection") then
+			tasks[index] = nil
+			task:Disconnect()
+		end
+	end
+
+	-- Clear out tasks table completely, even if clean up tasks add more tasks to the maid
+	local index, task = next(tasks)
+	while (task ~= nil) do
+		tasks[index] = nil
+		if (type(task) == "function") then
+			task()
+		elseif (typeof(task) == "RBXScriptConnection") then
+			task:Disconnect()
+		elseif (task.Destroy) then
+			task:Destroy()
+		elseif (Promise.Is(task)) then
+			task:Cancel()
+		end
+		index, task = next(tasks)
+	end
+end
+
+
+--- Alias for DoCleaning()
+-- @function Destroy
+Maid.Destroy = Maid.DoCleaning
+
+return Maid]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="10">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Option</string>
+						<string name="ScriptGuid">{6E84A908-7513-4111-AB0D-452CFF51BCC1}</string>
+						<ProtectedString name="Source"><![CDATA[-- Option
+-- Stephen Leitnick
+-- August 28, 2020
+
+--[[
+
+	MatchTable {
+		Some: (value: any) -> any
+		None: () -> any
+	}
+
+	CONSTRUCTORS:
+
+		Option.Some(anyNonNilValue): Option<any>
+		Option.Wrap(anyValue): Option<any>
+
+
+	STATIC FIELDS:
+
+		Option.None: Option<None>
+
+
+	STATIC METHODS:
+
+		Option.Is(obj): boolean
+
+
+	METHODS:
+
+		opt:Match(): (matches: MatchTable) -> any
+		opt:IsSome(): boolean
+		opt:IsNone(): boolean
+		opt:Unwrap(): any
+		opt:Expect(errMsg: string): any
+		opt:ExpectNone(errMsg: string): void
+		opt:UnwrapOr(default: any): any
+		opt:UnwrapOrElse(default: () -> any): any
+		opt:And(opt2: Option<any>): Option<any>
+		opt:AndThen(predicate: (unwrapped: any) -> Option<any>): Option<any>
+		opt:Or(opt2: Option<any>): Option<any>
+		opt:OrElse(orElseFunc: () -> Option<any>): Option<any>
+		opt:XOr(opt2: Option<any>): Option<any>
+		opt:Contains(value: any): boolean
+
+	--------------------------------------------------------------------
+
+	Options are useful for handling nil-value cases. Any time that an
+	operation might return nil, it is useful to instead return an
+	Option, which will indicate that the value might be nil, and should
+	be explicitly checked before using the value. This will help
+	prevent common bugs caused by nil values that can fail silently.
+
+
+	Example:
+
+	local result1 = Option.Some(32)
+	local result2 = Option.Some(nil)
+	local result3 = Option.Some("Hi")
+	local result4 = Option.Some(nil)
+	local result5 = Option.None
+
+	-- Use 'Match' to match if the value is Some or None:
+	result1:Match {
+		Some = function(value) print(value) end;
+		None = function() print("No value") end;
+	}
+
+	-- Raw check:
+	if result2:IsSome() then
+		local value = result2:Unwrap() -- Explicitly call Unwrap
+		print("Value of result2:", value)
+	end
+
+	if result3:IsNone() then
+		print("No result for result3")
+	end
+
+	-- Bad, will throw error bc result4 is none:
+	local value = result4:Unwrap()
+
+--]]
+
+
+local CLASSNAME = "Option"
+
+local Option = {}
+Option.__index = Option
+
+
+function Option._new(value)
+	local self = setmetatable({
+		ClassName = CLASSNAME;
+		_v = value;
+		_s = (value ~= nil);
+	}, Option)
+	return self
+end
+
+
+function Option.Some(value)
+	assert(value ~= nil, "Option.Some() value cannot be nil")
+	return Option._new(value)
+end
+
+
+function Option.Wrap(value)
+	if (value == nil) then
+		return Option.None
+	else
+		return Option.Some(value)
+	end
+end
+
+
+function Option.Is(obj)
+	return (type(obj) == "table" and getmetatable(obj) == Option)
+end
+
+
+function Option.Assert(obj)
+	assert(Option.Is(obj), "Result was not of type Option")
+end
+
+
+function Option.Deserialize(data) -- type data = {ClassName: string, Value: any}
+	assert(type(data) == "table" and data.ClassName == CLASSNAME, "Invalid data for deserializing Option")
+	return (data.Value == nil and Option.None or Option.Some(data.Value))
+end
+
+
+function Option:Serialize()
+	return {
+		ClassName = self.ClassName;
+		Value = self._v;
+	}
+end
+
+
+function Option:Match(matches)
+	local onSome = matches.Some
+	local onNone = matches.None
+	assert(type(onSome) == "function", "Missing 'Some' match")
+	assert(type(onNone) == "function", "Missing 'None' match")
+	if (self:IsSome()) then
+		return onSome(self:Unwrap())
+	else
+		return onNone()
+	end
+end
+
+
+function Option:IsSome()
+	return self._s
+end
+
+
+function Option:IsNone()
+	return (not self._s)
+end
+
+
+function Option:Expect(msg)
+	assert(self:IsSome(), msg)
+	return self._v
+end
+
+
+function Option:ExpectNone(msg)
+	assert(self:IsNone(), msg)
+end
+
+
+function Option:Unwrap()
+	return self:Expect("Cannot unwrap option of None type")
+end
+
+
+function Option:UnwrapOr(default)
+	if (self:IsSome()) then
+		return self:Unwrap()
+	else
+		return default
+	end
+end
+
+
+function Option:UnwrapOrElse(defaultFunc)
+	if (self:IsSome()) then
+		return self:Unwrap()
+	else
+		return defaultFunc()
+	end
+end
+
+
+function Option:And(optB)
+	if (self:IsSome()) then
+		return optB
+	else
+		return Option.None
+	end
+end
+
+
+function Option:AndThen(andThenFunc)
+	if (self:IsSome()) then
+		local result = andThenFunc(self:Unwrap())
+		Option.Assert(result)
+		return result
+	else
+		return Option.None
+	end
+end
+
+
+function Option:Or(optB)
+	if (self:IsSome()) then
+		return self
+	else
+		return optB
+	end
+end
+
+
+function Option:OrElse(orElseFunc)
+	if (self:IsSome()) then
+		return self
+	else
+		local result = orElseFunc()
+		Option.Assert(result)
+		return result
+	end
+end
+
+
+function Option:XOr(optB)
+	local someOptA = self:IsSome()
+	local someOptB = optB:IsSome()
+	if (someOptA == someOptB) then
+		return Option.None
+	elseif (someOptA) then
+		return self
+	else
+		return optB
+	end
+end
+
+
+function Option:Filter(predicate)
+	if (self:IsNone() or not predicate(self._v)) then
+		return Option.None
+	else
+		return self
+	end
+end
+
+
+function Option:Contains(value)
+	return (self:IsSome() and self._v == value)
+end
+
+
+function Option:__tostring()
+	if (self:IsSome()) then
+		return ("Option<" .. typeof(self._v) .. ">")
+	else
+		return "Option<None>"
+	end
+end
+
+
+function Option:__eq(opt)
+	if (Option.Is(opt)) then
+		if (self:IsSome() and opt:IsSome()) then
+			return (self:Unwrap() == opt:Unwrap())
+		elseif (self:IsNone() and opt:IsNone()) then
+			return true
+		end
+	end
+	return false
+end
+
+
+Option.None = Option._new()
+
+
+return Option
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="11">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Promise</string>
+						<string name="ScriptGuid">{998E46E7-F0AB-4439-8025-23B3121D05AE}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+	An implementation of Promises similar to Promise/A+.
+]]
+
+local ERROR_NON_PROMISE_IN_LIST = "Non-promise value passed into %s at index %s"
+local ERROR_NON_LIST = "Please pass a list of promises to %s"
+local ERROR_NON_FUNCTION = "Please pass a handler function to %s!"
+local MODE_KEY_METATABLE = {__mode = "k"}
+
+--[[
+	Creates an enum dictionary with some metamethods to prevent common mistakes.
+]]
+local function makeEnum(enumName, members)
+	local enum = {}
+
+	for _, memberName in ipairs(members) do
+		enum[memberName] = memberName
+	end
+
+	return setmetatable(enum, {
+		__index = function(_, k)
+			error(string.format("%s is not in %s!", k, enumName), 2)
+		end,
+		__newindex = function()
+			error(string.format("Creating new members in %s is not allowed!", enumName), 2)
+		end,
+	})
+end
+
+--[[
+	An object to represent runtime errors that occur during execution.
+	Promises that experience an error like this will be rejected with
+	an instance of this object.
+]]
+local Error do
+	Error = {
+		Kind = makeEnum("Promise.Error.Kind", {
+			"ExecutionError",
+			"AlreadyCancelled",
+			"NotResolvedInTime",
+			"TimedOut",
+		}),
+	}
+	Error.__index = Error
+
+	function Error.new(options, parent)
+		options = options or {}
+		return setmetatable({
+			error = tostring(options.error) or "[This error has no error text.]",
+			trace = options.trace,
+			context = options.context,
+			kind = options.kind,
+			parent = parent,
+			createdTick = os.clock(),
+			createdTrace = debug.traceback(),
+		}, Error)
+	end
+
+	function Error.is(anything)
+		if type(anything) == "table" then
+			local metatable = getmetatable(anything)
+
+			if type(metatable) == "table" then
+				return rawget(anything, "error") ~= nil and type(rawget(metatable, "extend")) == "function"
+			end
+		end
+
+		return false
+	end
+
+	function Error.isKind(anything, kind)
+		assert(kind ~= nil, "Argument #2 to Promise.Error.isKind must not be nil")
+
+		return Error.is(anything) and anything.kind == kind
+	end
+
+	function Error:extend(options)
+		options = options or {}
+
+		options.kind = options.kind or self.kind
+
+		return Error.new(options, self)
+	end
+
+	function Error:getErrorChain()
+		local runtimeErrors = { self }
+
+		while runtimeErrors[#runtimeErrors].parent do
+			table.insert(runtimeErrors, runtimeErrors[#runtimeErrors].parent)
+		end
+
+		return runtimeErrors
+	end
+
+	function Error:__tostring()
+		local errorStrings = {
+			string.format("-- Promise.Error(%s) --", self.kind or "?"),
+		}
+
+		for _, runtimeError in ipairs(self:getErrorChain()) do
+			table.insert(errorStrings, table.concat({
+				runtimeError.trace or runtimeError.error,
+				runtimeError.context,
+			}, "\n"))
+		end
+
+		return table.concat(errorStrings, "\n")
+	end
+end
+
+--[[
+	Packs a number of arguments into a table and returns its length.
+
+	Used to cajole varargs without dropping sparse values.
+]]
+local function pack(...)
+	return select("#", ...), { ... }
+end
+
+--[[
+	Returns first value (success), and packs all following values.
+]]
+local function packResult(success, ...)
+	return success, select("#", ...), { ... }
+end
+
+
+local function makeErrorHandler(traceback)
+	assert(traceback ~= nil, "No traceback")
+
+	return function(err)
+		-- If the error object is already a table, forward it directly.
+		-- Should we extend the error here and add our own trace?
+
+		if type(err) == "table" then
+			return err
+		end
+
+		return Error.new({
+			error = err,
+			kind = Error.Kind.ExecutionError,
+			trace = debug.traceback(tostring(err), 2),
+			context = "Promise created at:\n\n" .. traceback,
+		})
+	end
+end
+
+--[[
+	Calls a Promise executor with error handling.
+]]
+local function runExecutor(traceback, callback, ...)
+	return packResult(xpcall(callback, makeErrorHandler(traceback), ...))
+end
+
+--[[
+	Creates a function that invokes a callback with correct error handling and
+	resolution mechanisms.
+]]
+local function createAdvancer(traceback, callback, resolve, reject)
+	return function(...)
+		local ok, resultLength, result = runExecutor(traceback, callback, ...)
+
+		if ok then
+			resolve(unpack(result, 1, resultLength))
+		else
+			reject(result[1])
+		end
+	end
+end
+
+local function isEmpty(t)
+	return next(t) == nil
+end
+
+local Promise = {
+	Error = Error,
+	Status = makeEnum("Promise.Status", {"Started", "Resolved", "Rejected", "Cancelled"}),
+	_getTime = os.clock,
+	_timeEvent = game:GetService("RunService").Heartbeat,
+}
+Promise.prototype = {}
+Promise.__index = Promise.prototype
+
+--[[
+	Constructs a new Promise with the given initializing callback.
+
+	This is generally only called when directly wrapping a non-promise API into
+	a promise-based version.
+
+	The callback will receive 'resolve' and 'reject' methods, used to start
+	invoking the promise chain.
+
+	Second parameter, parent, is used internally for tracking the "parent" in a
+	promise chain. External code shouldn't need to worry about this.
+]]
+function Promise._new(traceback, callback, parent)
+	if parent ~= nil and not Promise.is(parent) then
+		error("Argument #2 to Promise.new must be a promise or nil", 2)
+	end
+
+	local self = {
+		-- Used to locate where a promise was created
+		_source = traceback,
+
+		_status = Promise.Status.Started,
+
+		-- A table containing a list of all results, whether success or failure.
+		-- Only valid if _status is set to something besides Started
+		_values = nil,
+
+		-- Lua doesn't like sparse arrays very much, so we explicitly store the
+		-- length of _values to handle middle nils.
+		_valuesLength = -1,
+
+		-- Tracks if this Promise has no error observers..
+		_unhandledRejection = true,
+
+		-- Queues representing functions we should invoke when we update!
+		_queuedResolve = {},
+		_queuedReject = {},
+		_queuedFinally = {},
+
+		-- The function to run when/if this promise is cancelled.
+		_cancellationHook = nil,
+
+		-- The "parent" of this promise in a promise chain. Required for
+		-- cancellation propagation upstream.
+		_parent = parent,
+
+		-- Consumers are Promises that have chained onto this one.
+		-- We track them for cancellation propagation downstream.
+		_consumers = setmetatable({}, MODE_KEY_METATABLE),
+	}
+
+	if parent and parent._status == Promise.Status.Started then
+		parent._consumers[self] = true
+	end
+
+	setmetatable(self, Promise)
+
+	local function resolve(...)
+		self:_resolve(...)
+	end
+
+	local function reject(...)
+		self:_reject(...)
+	end
+
+	local function onCancel(cancellationHook)
+		if cancellationHook then
+			if self._status == Promise.Status.Cancelled then
+				cancellationHook()
+			else
+				self._cancellationHook = cancellationHook
+			end
+		end
+
+		return self._status == Promise.Status.Cancelled
+	end
+
+	coroutine.wrap(function()
+		local ok, _, result = runExecutor(
+			self._source,
+			callback,
+			resolve,
+			reject,
+			onCancel
+		)
+
+		if not ok then
+			reject(result[1])
+		end
+	end)()
+
+	return self
+end
+
+function Promise.new(executor)
+	return Promise._new(debug.traceback(nil, 2), executor)
+end
+
+function Promise:__tostring()
+	return string.format("Promise(%s)", self:getStatus())
+end
+
+--[[
+	Promise.new, except pcall on a new thread is automatic.
+]]
+function Promise.defer(callback)
+	local traceback = debug.traceback(nil, 2)
+	local promise
+	promise = Promise._new(traceback, function(resolve, reject, onCancel)
+		local connection
+		connection = Promise._timeEvent:Connect(function()
+			connection:Disconnect()
+			local ok, _, result = runExecutor(traceback, callback, resolve, reject, onCancel)
+
+			if not ok then
+				reject(result[1])
+			end
+		end)
+	end)
+
+	return promise
+end
+Promise.Defer = Promise.defer
+
+-- Backwards compatibility
+Promise.async = Promise.defer
+Promise.Async = Promise.defer
+
+--[[
+	Create a promise that represents the immediately resolved value.
+]]
+function Promise.resolve(...)
+	local length, values = pack(...)
+	return Promise._new(debug.traceback(nil, 2), function(resolve)
+		resolve(unpack(values, 1, length))
+	end)
+end
+Promise.Resolve = Promise.resolve
+
+--[[
+	Create a promise that represents the immediately rejected value.
+]]
+function Promise.reject(...)
+	local length, values = pack(...)
+	return Promise._new(debug.traceback(nil, 2), function(_, reject)
+		reject(unpack(values, 1, length))
+	end)
+end
+Promise.Reject = Promise.reject
+
+--[[
+	Runs a non-promise-returning function as a Promise with the
+  given arguments.
+]]
+function Promise._try(traceback, callback, ...)
+	local valuesLength, values = pack(...)
+
+	return Promise._new(traceback, function(resolve)
+		resolve(callback(unpack(values, 1, valuesLength)))
+	end)
+end
+
+--[[
+	Begins a Promise chain, turning synchronous errors into rejections.
+]]
+function Promise.try(...)
+	return Promise._try(debug.traceback(nil, 2), ...)
+end
+Promise.Try = Promise.try
+
+--[[
+	Returns a new promise that:
+		* is resolved when all input promises resolve
+		* is rejected if ANY input promises reject
+]]
+function Promise._all(traceback, promises, amount)
+	if type(promises) ~= "table" then
+		error(string.format(ERROR_NON_LIST, "Promise.all"), 3)
+	end
+
+	-- We need to check that each value is a promise here so that we can produce
+	-- a proper error rather than a rejected promise with our error.
+	for i, promise in pairs(promises) do
+		if not Promise.is(promise) then
+			error(string.format(ERROR_NON_PROMISE_IN_LIST, "Promise.all", tostring(i)), 3)
+		end
+	end
+
+	-- If there are no values then return an already resolved promise.
+	if #promises == 0 or amount == 0 then
+		return Promise.resolve({})
+	end
+
+	return Promise._new(traceback, function(resolve, reject, onCancel)
+		-- An array to contain our resolved values from the given promises.
+		local resolvedValues = {}
+		local newPromises = {}
+
+		-- Keep a count of resolved promises because just checking the resolved
+		-- values length wouldn't account for promises that resolve with nil.
+		local resolvedCount = 0
+		local rejectedCount = 0
+		local done = false
+
+		local function cancel()
+			for _, promise in ipairs(newPromises) do
+				promise:cancel()
+			end
+		end
+
+		-- Called when a single value is resolved and resolves if all are done.
+		local function resolveOne(i, ...)
+			if done then
+				return
+			end
+
+			resolvedCount = resolvedCount + 1
+
+			if amount == nil then
+				resolvedValues[i] = ...
+			else
+				resolvedValues[resolvedCount] = ...
+			end
+
+			if resolvedCount >= (amount or #promises) then
+				done = true
+				resolve(resolvedValues)
+				cancel()
+			end
+		end
+
+		onCancel(cancel)
+
+		-- We can assume the values inside `promises` are all promises since we
+		-- checked above.
+		for i, promise in ipairs(promises) do
+			newPromises[i] = promise:andThen(
+				function(...)
+					resolveOne(i, ...)
+				end,
+				function(...)
+					rejectedCount = rejectedCount + 1
+
+					if amount == nil or #promises - rejectedCount < amount then
+						cancel()
+						done = true
+
+						reject(...)
+					end
+				end
+			)
+		end
+
+		if done then
+			cancel()
+		end
+	end)
+end
+
+function Promise.all(promises)
+	return Promise._all(debug.traceback(nil, 2), promises)
+end
+Promise.All = Promise.all
+
+function Promise.some(promises, amount)
+	assert(type(amount) == "number", "Bad argument #2 to Promise.some: must be a number")
+
+	return Promise._all(debug.traceback(nil, 2), promises, amount)
+end
+Promise.Some = Promise.some
+
+function Promise.any(promises)
+	return Promise._all(debug.traceback(nil, 2), promises, 1):andThen(function(values)
+		return values[1]
+	end)
+end
+Promise.Any = Promise.any
+
+function Promise.allSettled(promises)
+	if type(promises) ~= "table" then
+		error(string.format(ERROR_NON_LIST, "Promise.allSettled"), 2)
+	end
+
+	-- We need to check that each value is a promise here so that we can produce
+	-- a proper error rather than a rejected promise with our error.
+	for i, promise in pairs(promises) do
+		if not Promise.is(promise) then
+			error(string.format(ERROR_NON_PROMISE_IN_LIST, "Promise.allSettled", tostring(i)), 2)
+		end
+	end
+
+	-- If there are no values then return an already resolved promise.
+	if #promises == 0 then
+		return Promise.resolve({})
+	end
+
+	return Promise._new(debug.traceback(nil, 2), function(resolve, _, onCancel)
+		-- An array to contain our resolved values from the given promises.
+		local fates = {}
+		local newPromises = {}
+
+		-- Keep a count of resolved promises because just checking the resolved
+		-- values length wouldn't account for promises that resolve with nil.
+		local finishedCount = 0
+
+		-- Called when a single value is resolved and resolves if all are done.
+		local function resolveOne(i, ...)
+			finishedCount = finishedCount + 1
+
+			fates[i] = ...
+
+			if finishedCount >= #promises then
+				resolve(fates)
+			end
+		end
+
+		onCancel(function()
+			for _, promise in ipairs(newPromises) do
+				promise:cancel()
+			end
+		end)
+
+		-- We can assume the values inside `promises` are all promises since we
+		-- checked above.
+		for i, promise in ipairs(promises) do
+			newPromises[i] = promise:finally(
+				function(...)
+					resolveOne(i, ...)
+				end
+			)
+		end
+	end)
+end
+Promise.AllSettled = Promise.allSettled
+
+--[[
+	Races a set of Promises and returns the first one that resolves,
+	cancelling the others.
+]]
+function Promise.race(promises)
+	assert(type(promises) == "table", string.format(ERROR_NON_LIST, "Promise.race"))
+
+	for i, promise in pairs(promises) do
+		assert(Promise.is(promise), string.format(ERROR_NON_PROMISE_IN_LIST, "Promise.race", tostring(i)))
+	end
+
+	return Promise._new(debug.traceback(nil, 2), function(resolve, reject, onCancel)
+		local newPromises = {}
+		local finished = false
+
+		local function cancel()
+			for _, promise in ipairs(newPromises) do
+				promise:cancel()
+			end
+		end
+
+		local function finalize(callback)
+			return function (...)
+				cancel()
+				finished = true
+				return callback(...)
+			end
+		end
+
+		if onCancel(finalize(reject)) then
+			return
+		end
+
+		for i, promise in ipairs(promises) do
+			newPromises[i] = promise:andThen(finalize(resolve), finalize(reject))
+		end
+
+		if finished then
+			cancel()
+		end
+	end)
+end
+Promise.Race = Promise.race
+
+--[[
+	Iterates serially over the given an array of values, calling the predicate callback on each before continuing.
+	If the predicate returns a Promise, we wait for that Promise to resolve before continuing to the next item
+	in the array. If the Promise the predicate returns rejects, the Promise from Promise.each is also rejected with
+	the same value.
+
+	Returns a Promise containing an array of the return values from the predicate for each item in the original list.
+]]
+function Promise.each(list, predicate)
+	assert(type(list) == "table", string.format(ERROR_NON_LIST, "Promise.each"))
+	assert(type(predicate) == "function", string.format(ERROR_NON_FUNCTION, "Promise.each"))
+
+	return Promise._new(debug.traceback(nil, 2), function(resolve, reject, onCancel)
+		local results = {}
+		local promisesToCancel = {}
+
+		local cancelled = false
+
+		local function cancel()
+			for _, promiseToCancel in ipairs(promisesToCancel) do
+				promiseToCancel:cancel()
+			end
+		end
+
+		onCancel(function()
+			cancelled = true
+
+			cancel()
+		end)
+
+		-- We need to preprocess the list of values and look for Promises.
+		-- If we find some, we must register our andThen calls now, so that those Promises have a consumer
+		-- from us registered. If we don't do this, those Promises might get cancelled by something else
+		-- before we get to them in the series because it's not possible to tell that we plan to use it
+		-- unless we indicate it here.
+
+		local preprocessedList = {}
+
+		for index, value in ipairs(list) do
+			if Promise.is(value) then
+				if value:getStatus() == Promise.Status.Cancelled then
+					cancel()
+					return reject(Error.new({
+						error = "Promise is cancelled",
+						kind = Error.Kind.AlreadyCancelled,
+						context = string.format(
+							"The Promise that was part of the array at index %d passed into Promise.each was already cancelled when Promise.each began.\n\nThat Promise was created at:\n\n%s",
+							index,
+							value._source
+						),
+					}))
+				elseif value:getStatus() == Promise.Status.Rejected then
+					cancel()
+					return reject(select(2, value:await()))
+				end
+
+				-- Chain a new Promise from this one so we only cancel ours
+				local ourPromise = value:andThen(function(...)
+					return ...
+				end)
+
+				table.insert(promisesToCancel, ourPromise)
+				preprocessedList[index] = ourPromise
+			else
+				preprocessedList[index] = value
+			end
+		end
+
+		for index, value in ipairs(preprocessedList) do
+			if Promise.is(value) then
+				local success
+				success, value = value:await()
+
+				if not success then
+					cancel()
+					return reject(value)
+				end
+			end
+
+			if cancelled then
+				return
+			end
+
+			local predicatePromise = Promise.resolve(predicate(value, index))
+
+			table.insert(promisesToCancel, predicatePromise)
+
+			local success, result = predicatePromise:await()
+
+			if not success then
+				cancel()
+				return reject(result)
+			end
+
+			results[index] = result
+		end
+
+		resolve(results)
+	end)
+end
+Promise.Each = Promise.each
+
+--[[
+	Is the given object a Promise instance?
+]]
+function Promise.is(object)
+	if type(object) ~= "table" then
+		return false
+	end
+
+	local objectMetatable = getmetatable(object)
+
+	if objectMetatable == Promise then
+		-- The Promise came from this library.
+		return true
+	elseif objectMetatable == nil then
+		-- No metatable, but we should still chain onto tables with andThen methods
+		return type(object.andThen) == "function"
+	elseif
+		type(objectMetatable) == "table"
+		and type(rawget(objectMetatable, "__index")) == "table"
+		and type(rawget(rawget(objectMetatable, "__index"), "andThen")) == "function"
+	then
+		-- Maybe this came from a different or older Promise library.
+		return true
+	end
+
+	return false
+end
+Promise.Is = Promise.is
+
+--[[
+	Converts a yielding function into a Promise-returning one.
+]]
+function Promise.promisify(callback)
+	return function(...)
+		return Promise._try(debug.traceback(nil, 2), callback, ...)
+	end
+end
+Promise.Promisify = Promise.promisify
+
+--[[
+	Creates a Promise that resolves after given number of seconds.
+]]
+do
+	-- uses a sorted doubly linked list (queue) to achieve O(1) remove operations and O(n) for insert
+
+	-- the initial node in the linked list
+	local first
+	local connection
+
+	function Promise.delay(seconds)
+		assert(type(seconds) == "number", "Bad argument #1 to Promise.delay, must be a number.")
+		-- If seconds is -INF, INF, NaN, or less than 1 / 60, assume seconds is 1 / 60.
+		-- This mirrors the behavior of wait()
+		if not (seconds >= 1 / 60) or seconds == math.huge then
+			seconds = 1 / 60
+		end
+
+		return Promise._new(debug.traceback(nil, 2), function(resolve, _, onCancel)
+			local startTime = Promise._getTime()
+			local endTime = startTime + seconds
+
+			local node = {
+				resolve = resolve,
+				startTime = startTime,
+				endTime = endTime,
+			}
+
+			if connection == nil then -- first is nil when connection is nil
+				first = node
+				connection = Promise._timeEvent:Connect(function()
+					local threadStart = Promise._getTime()
+
+					while first ~= nil and first.endTime < threadStart do
+						local current = first
+						first = current.next
+
+						if first == nil then
+							connection:Disconnect()
+							connection = nil
+						else
+							first.previous = nil
+						end
+
+						current.resolve(Promise._getTime() - current.startTime)
+					end
+				end)
+			else -- first is non-nil
+				if first.endTime < endTime then -- if `node` should be placed after `first`
+					-- we will insert `node` between `current` and `next`
+					-- (i.e. after `current` if `next` is nil)
+					local current = first
+					local next = current.next
+
+					while next ~= nil and next.endTime < endTime do
+						current = next
+						next = current.next
+					end
+
+					-- `current` must be non-nil, but `next` could be `nil` (i.e. last item in list)
+					current.next = node
+					node.previous = current
+
+					if next ~= nil then
+						node.next = next
+						next.previous = node
+					end
+				else
+					-- set `node` to `first`
+					node.next = first
+					first.previous = node
+					first = node
+				end
+			end
+
+			onCancel(function()
+				-- remove node from queue
+				local next = node.next
+
+				if first == node then
+					if next == nil then -- if `node` is the first and last
+						connection:Disconnect()
+						connection = nil
+					else -- if `node` is `first` and not the last
+						next.previous = nil
+					end
+					first = next
+				else
+					local previous = node.previous
+					-- since `node` is not `first`, then we know `previous` is non-nil
+					previous.next = next
+
+					if next ~= nil then
+						next.previous = previous
+					end
+				end
+			end)
+		end)
+	end
+	Promise.Delay = Promise.delay
+end
+
+--[[
+	Rejects the promise after `seconds` seconds.
+]]
+function Promise.prototype:timeout(seconds, rejectionValue)
+	local traceback = debug.traceback(nil, 2)
+
+	return Promise.race({
+		Promise.delay(seconds):andThen(function()
+			return Promise.reject(rejectionValue == nil and Error.new({
+				kind = Error.Kind.TimedOut,
+				error = "Timed out",
+				context = string.format(
+					"Timeout of %d seconds exceeded.\n:timeout() called at:\n\n%s",
+					seconds,
+					traceback
+				),
+			}) or rejectionValue)
+		end),
+		self,
+	})
+end
+Promise.prototype.Timeout = Promise.prototype.timeout
+
+function Promise.prototype:getStatus()
+	return self._status
+end
+Promise.prototype.GetStatus = Promise.prototype.getStatus
+
+--[[
+	Creates a new promise that receives the result of this promise.
+
+	The given callbacks are invoked depending on that result.
+]]
+function Promise.prototype:_andThen(traceback, successHandler, failureHandler)
+	self._unhandledRejection = false
+
+	-- Create a new promise to follow this part of the chain
+	return Promise._new(traceback, function(resolve, reject)
+		-- Our default callbacks just pass values onto the next promise.
+		-- This lets success and failure cascade correctly!
+
+		local successCallback = resolve
+		if successHandler then
+			successCallback = createAdvancer(
+				traceback,
+				successHandler,
+				resolve,
+				reject
+			)
+		end
+
+		local failureCallback = reject
+		if failureHandler then
+			failureCallback = createAdvancer(
+				traceback,
+				failureHandler,
+				resolve,
+				reject
+			)
+		end
+
+		if self._status == Promise.Status.Started then
+			-- If we haven't resolved yet, put ourselves into the queue
+			table.insert(self._queuedResolve, successCallback)
+			table.insert(self._queuedReject, failureCallback)
+		elseif self._status == Promise.Status.Resolved then
+			-- This promise has already resolved! Trigger success immediately.
+			successCallback(unpack(self._values, 1, self._valuesLength))
+		elseif self._status == Promise.Status.Rejected then
+			-- This promise died a terrible death! Trigger failure immediately.
+			failureCallback(unpack(self._values, 1, self._valuesLength))
+		elseif self._status == Promise.Status.Cancelled then
+			-- We don't want to call the success handler or the failure handler,
+			-- we just reject this promise outright.
+			reject(Error.new({
+				error = "Promise is cancelled",
+				kind = Error.Kind.AlreadyCancelled,
+				context = "Promise created at\n\n" .. traceback,
+			}))
+		end
+	end, self)
+end
+
+function Promise.prototype:andThen(successHandler, failureHandler)
+	assert(
+		successHandler == nil or type(successHandler) == "function",
+		string.format(ERROR_NON_FUNCTION, "Promise:andThen")
+	)
+	assert(
+		failureHandler == nil or type(failureHandler) == "function",
+		string.format(ERROR_NON_FUNCTION, "Promise:andThen")
+	)
+
+	return self:_andThen(debug.traceback(nil, 2), successHandler, failureHandler)
+end
+Promise.prototype.AndThen = Promise.prototype.andThen
+Promise.prototype.Then = Promise.prototype.andThen
+
+--[[
+	Used to catch any errors that may have occurred in the promise.
+]]
+function Promise.prototype:catch(failureCallback)
+	assert(
+		failureCallback == nil or type(failureCallback) == "function",
+		string.format(ERROR_NON_FUNCTION, "Promise:catch")
+	)
+	return self:_andThen(debug.traceback(nil, 2), nil, failureCallback)
+end
+Promise.prototype.Catch = Promise.prototype.catch
+
+--[[
+	Like andThen, but the value passed into the handler is also the
+	value returned from the handler.
+]]
+function Promise.prototype:tap(tapCallback)
+	assert(type(tapCallback) == "function", string.format(ERROR_NON_FUNCTION, "Promise:tap"))
+	return self:_andThen(debug.traceback(nil, 2), function(...)
+		local callbackReturn = tapCallback(...)
+
+		if Promise.is(callbackReturn) then
+			local length, values = pack(...)
+			return callbackReturn:andThen(function()
+				return unpack(values, 1, length)
+			end)
+		end
+
+		return ...
+	end)
+end
+Promise.prototype.Tap = Promise.prototype.tap
+
+--[[
+	Calls a callback on `andThen` with specific arguments.
+]]
+function Promise.prototype:andThenCall(callback, ...)
+	assert(type(callback) == "function", string.format(ERROR_NON_FUNCTION, "Promise:andThenCall"))
+	local length, values = pack(...)
+	return self:_andThen(debug.traceback(nil, 2), function()
+		return callback(unpack(values, 1, length))
+	end)
+end
+Promise.prototype.AndThenCall = Promise.prototype.andThenCall
+Promise.prototype.ThenCall = Promise.prototype.andThenCall
+
+--[[
+	Shorthand for an andThen handler that returns the given value.
+]]
+function Promise.prototype:andThenReturn(...)
+	local length, values = pack(...)
+	return self:_andThen(debug.traceback(nil, 2), function()
+		return unpack(values, 1, length)
+	end)
+end
+Promise.prototype.AndThenReturn = Promise.prototype.andThenReturn
+Promise.prototype.ThenReturn = Promise.prototype.andThenReturn
+
+--[[
+	Cancels the promise, disallowing it from rejecting or resolving, and calls
+	the cancellation hook if provided.
+]]
+function Promise.prototype:cancel()
+	if self._status ~= Promise.Status.Started then
+		return
+	end
+
+	self._status = Promise.Status.Cancelled
+
+	if self._cancellationHook then
+		self._cancellationHook()
+	end
+
+	if self._parent then
+		self._parent:_consumerCancelled(self)
+	end
+
+	for child in pairs(self._consumers) do
+		child:cancel()
+	end
+
+	self:_finalize()
+end
+Promise.prototype.Cancel = Promise.prototype.cancel
+
+--[[
+	Used to decrease the number of consumers by 1, and if there are no more,
+	cancel this promise.
+]]
+function Promise.prototype:_consumerCancelled(consumer)
+	if self._status ~= Promise.Status.Started then
+		return
+	end
+
+	self._consumers[consumer] = nil
+
+	if next(self._consumers) == nil then
+		self:cancel()
+	end
+end
+
+--[[
+	Used to set a handler for when the promise resolves, rejects, or is
+	cancelled. Returns a new promise chained from this promise.
+]]
+function Promise.prototype:_finally(traceback, finallyHandler, onlyOk)
+	if not onlyOk then
+		self._unhandledRejection = false
+	end
+
+	-- Return a promise chained off of this promise
+	return Promise._new(traceback, function(resolve, reject)
+		local finallyCallback = resolve
+		if finallyHandler then
+			finallyCallback = createAdvancer(
+				traceback,
+				finallyHandler,
+				resolve,
+				reject
+			)
+		end
+
+		if onlyOk then
+			local callback = finallyCallback
+			finallyCallback = function(...)
+				if self._status == Promise.Status.Rejected then
+					return resolve(self)
+				end
+
+				return callback(...)
+			end
+		end
+
+		if self._status == Promise.Status.Started then
+			-- The promise is not settled, so queue this.
+			table.insert(self._queuedFinally, finallyCallback)
+		else
+			-- The promise already settled or was cancelled, run the callback now.
+			finallyCallback(self._status)
+		end
+	end, self)
+end
+
+function Promise.prototype:finally(finallyHandler)
+	assert(
+		finallyHandler == nil or type(finallyHandler) == "function",
+		string.format(ERROR_NON_FUNCTION, "Promise:finally")
+	)
+	return self:_finally(debug.traceback(nil, 2), finallyHandler)
+end
+Promise.prototype.Finally = Promise.prototype.finally
+
+--[[
+	Calls a callback on `finally` with specific arguments.
+]]
+function Promise.prototype:finallyCall(callback, ...)
+	assert(type(callback) == "function", string.format(ERROR_NON_FUNCTION, "Promise:finallyCall"))
+	local length, values = pack(...)
+	return self:_finally(debug.traceback(nil, 2), function()
+		return callback(unpack(values, 1, length))
+	end)
+end
+Promise.prototype.FinallyCall = Promise.prototype.finallyCall
+
+--[[
+	Shorthand for a finally handler that returns the given value.
+]]
+function Promise.prototype:finallyReturn(...)
+	local length, values = pack(...)
+	return self:_finally(debug.traceback(nil, 2), function()
+		return unpack(values, 1, length)
+	end)
+end
+Promise.prototype.FinallyReturn = Promise.prototype.finallyReturn
+
+--[[
+	Similar to finally, except rejections are propagated through it.
+]]
+function Promise.prototype:done(finallyHandler)
+	assert(
+		finallyHandler == nil or type(finallyHandler) == "function",
+		string.format(ERROR_NON_FUNCTION, "Promise:done")
+	)
+	return self:_finally(debug.traceback(nil, 2), finallyHandler, true)
+end
+Promise.prototype.Done = Promise.prototype.done
+
+--[[
+	Calls a callback on `done` with specific arguments.
+]]
+function Promise.prototype:doneCall(callback, ...)
+	assert(type(callback) == "function", string.format(ERROR_NON_FUNCTION, "Promise:doneCall"))
+	local length, values = pack(...)
+	return self:_finally(debug.traceback(nil, 2), function()
+		return callback(unpack(values, 1, length))
+	end, true)
+end
+Promise.prototype.DoneCall = Promise.prototype.doneCall
+
+--[[
+	Shorthand for a done handler that returns the given value.
+]]
+function Promise.prototype:doneReturn(...)
+	local length, values = pack(...)
+	return self:_finally(debug.traceback(nil, 2), function()
+		return unpack(values, 1, length)
+	end, true)
+end
+Promise.prototype.DoneReturn = Promise.prototype.doneReturn
+
+--[[
+	Yield until the promise is completed.
+
+	This matches the execution model of normal Roblox functions.
+]]
+function Promise.prototype:awaitStatus()
+	self._unhandledRejection = false
+
+	if self._status == Promise.Status.Started then
+		local bindable = Instance.new("BindableEvent")
+
+		self:finally(function()
+			bindable:Fire()
+		end)
+
+		bindable.Event:Wait()
+		bindable:Destroy()
+	end
+
+	if self._status == Promise.Status.Resolved then
+		return self._status, unpack(self._values, 1, self._valuesLength)
+	elseif self._status == Promise.Status.Rejected then
+		return self._status, unpack(self._values, 1, self._valuesLength)
+	end
+
+	return self._status
+end
+Promise.prototype.AwaitStatus = Promise.prototype.awaitStatus
+
+local function awaitHelper(status, ...)
+	return status == Promise.Status.Resolved, ...
+end
+
+--[[
+	Calls awaitStatus internally, returns (isResolved, values...)
+]]
+function Promise.prototype:await()
+	return awaitHelper(self:awaitStatus())
+end
+Promise.prototype.Await = Promise.prototype.await
+
+local function expectHelper(status, ...)
+	if status ~= Promise.Status.Resolved then
+		error((...) == nil and "Expected Promise rejected with no value." or (...), 3)
+	end
+
+	return ...
+end
+
+--[[
+	Calls await and only returns if the Promise resolves.
+	Throws if the Promise rejects or gets cancelled.
+]]
+function Promise.prototype:expect()
+	return expectHelper(self:awaitStatus())
+end
+Promise.prototype.Expect = Promise.prototype.expect
+
+-- Backwards compatibility
+Promise.prototype.awaitValue = Promise.prototype.expect
+Promise.prototype.AwaitValue = Promise.prototype.expect
+
+--[[
+	Intended for use in tests.
+
+	Similar to await(), but instead of yielding if the promise is unresolved,
+	_unwrap will throw. This indicates an assumption that a promise has
+	resolved.
+]]
+function Promise.prototype:_unwrap()
+	if self._status == Promise.Status.Started then
+		error("Promise has not resolved or rejected.", 2)
+	end
+
+	local success = self._status == Promise.Status.Resolved
+
+	return success, unpack(self._values, 1, self._valuesLength)
+end
+
+function Promise.prototype:_resolve(...)
+	if self._status ~= Promise.Status.Started then
+		if Promise.is((...)) then
+			(...):_consumerCancelled(self)
+		end
+		return
+	end
+
+	-- If the resolved value was a Promise, we chain onto it!
+	if Promise.is((...)) then
+		-- Without this warning, arguments sometimes mysteriously disappear
+		if select("#", ...) > 1 then
+			local message = string.format(
+				"When returning a Promise from andThen, extra arguments are " ..
+				"discarded! See:\n\n%s",
+				self._source
+			)
+			warn(message)
+		end
+
+		local chainedPromise = ...
+
+		local promise = chainedPromise:andThen(
+			function(...)
+				self:_resolve(...)
+			end,
+			function(...)
+				local maybeRuntimeError = chainedPromise._values[1]
+
+				-- Backwards compatibility < v2
+				if chainedPromise._error then
+					maybeRuntimeError = Error.new({
+						error = chainedPromise._error,
+						kind = Error.Kind.ExecutionError,
+						context = "[No stack trace available as this Promise originated from an older version of the Promise library (< v2)]",
+					})
+				end
+
+				if Error.isKind(maybeRuntimeError, Error.Kind.ExecutionError) then
+					return self:_reject(maybeRuntimeError:extend({
+						error = "This Promise was chained to a Promise that errored.",
+						trace = "",
+						context = string.format(
+							"The Promise at:\n\n%s\n...Rejected because it was chained to the following Promise, which encountered an error:\n",
+							self._source
+						),
+					}))
+				end
+
+				self:_reject(...)
+			end
+		)
+
+		if promise._status == Promise.Status.Cancelled then
+			self:cancel()
+		elseif promise._status == Promise.Status.Started then
+			-- Adopt ourselves into promise for cancellation propagation.
+			self._parent = promise
+			promise._consumers[self] = true
+		end
+
+		return
+	end
+
+	self._status = Promise.Status.Resolved
+	self._valuesLength, self._values = pack(...)
+
+	-- We assume that these callbacks will not throw errors.
+	for _, callback in ipairs(self._queuedResolve) do
+		coroutine.wrap(callback)(...)
+	end
+
+	self:_finalize()
+end
+
+function Promise.prototype:_reject(...)
+	if self._status ~= Promise.Status.Started then
+		return
+	end
+
+	self._status = Promise.Status.Rejected
+	self._valuesLength, self._values = pack(...)
+
+	-- If there are any rejection handlers, call those!
+	if not isEmpty(self._queuedReject) then
+		-- We assume that these callbacks will not throw errors.
+		for _, callback in ipairs(self._queuedReject) do
+			coroutine.wrap(callback)(...)
+		end
+	else
+		-- At this point, no one was able to observe the error.
+		-- An error handler might still be attached if the error occurred
+		-- synchronously. We'll wait one tick, and if there are still no
+		-- observers, then we should put a message in the console.
+
+		local err = tostring((...))
+
+		coroutine.wrap(function()
+			Promise._timeEvent:Wait()
+
+			-- Someone observed the error, hooray!
+			if not self._unhandledRejection then
+				return
+			end
+
+			-- Build a reasonable message
+			local message = string.format(
+				"Unhandled Promise rejection:\n\n%s\n\n%s",
+				err,
+				self._source
+			)
+
+			if Promise.TEST then
+				-- Don't spam output when we're running tests.
+				return
+			end
+
+			warn(message)
+		end)()
+	end
+
+	self:_finalize()
+end
+
+--[[
+	Calls any :finally handlers. We need this to be a separate method and
+	queue because we must call all of the finally callbacks upon a success,
+	failure, *and* cancellation.
+]]
+function Promise.prototype:_finalize()
+	for _, callback in ipairs(self._queuedFinally) do
+		-- Purposefully not passing values to callbacks here, as it could be the
+		-- resolved values, or rejected errors. If the developer needs the values,
+		-- they should use :andThen or :catch explicitly.
+		coroutine.wrap(callback)(self._status)
+	end
+
+	self._queuedFinally = nil
+	self._queuedReject = nil
+	self._queuedResolve = nil
+
+	-- Clear references to other Promises to allow gc
+	if not Promise.TEST then
+		self._parent = nil
+		self._consumers = nil
+	end
+end
+
+--[[
+	Chains a Promise from this one that is resolved if this Promise is
+	resolved, and rejected if it is not resolved.
+]]
+function Promise.prototype:now(rejectionValue)
+	local traceback = debug.traceback(nil, 2)
+	if self:getStatus() == Promise.Status.Resolved then
+		return self:_andThen(traceback, function(...)
+			return ...
+		end)
+	else
+		return Promise.reject(rejectionValue == nil and Error.new({
+			kind = Error.Kind.NotResolvedInTime,
+			error = "This Promise was not resolved in time for :now()",
+			context = ":now() was called at:\n\n" .. traceback,
+		}) or rejectionValue)
+	end
+end
+Promise.prototype.Now = Promise.prototype.now
+
+--[[
+	Retries a Promise-returning callback N times until it succeeds.
+]]
+function Promise.retry(callback, times, ...)
+	assert(type(callback) == "function", "Parameter #1 to Promise.retry must be a function")
+	assert(type(times) == "number", "Parameter #2 to Promise.retry must be a number")
+
+	local args, length = {...}, select("#", ...)
+
+	return Promise.resolve(callback(...)):catch(function(...)
+		if times > 0 then
+			return Promise.retry(callback, times - 1, unpack(args, 1, length))
+		else
+			return Promise.reject(...)
+		end
+	end)
+end
+Promise.prototype.Retry = Promise.prototype.retry
+
+--[[
+	Converts an event into a Promise with an optional predicate
+]]
+function Promise.fromEvent(event, predicate)
+	predicate = predicate or function()
+		return true
+	end
+
+	return Promise._new(debug.traceback(nil, 2), function(resolve, _reject, onCancel)
+		local connection
+		local shouldDisconnect = false
+
+		local function disconnect()
+			connection:Disconnect()
+			connection = nil
+		end
+
+		-- We use shouldDisconnect because if the callback given to Connect is called before
+		-- Connect returns, connection will still be nil. This happens with events that queue up
+		-- events when there's nothing connected, such as RemoteEvents
+
+		connection = event:Connect(function(...)
+			local callbackValue = predicate(...)
+
+			if callbackValue == true then
+				resolve(...)
+
+				if connection then
+					disconnect()
+				else
+					shouldDisconnect = true
+				end
+			elseif type(callbackValue) ~= "boolean" then
+				error("Promise.fromEvent predicate should always return a boolean")
+			end
+		end)
+
+		if shouldDisconnect and connection then
+			return disconnect()
+		end
+
+		onCancel(function()
+			disconnect()
+		end)
+	end)
+end
+Promise.FromEvent = Promise.fromEvent
+
+return Promise]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="Folder" referent="12">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<string name="Name">Remote</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="ModuleScript" referent="13">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">ClientRemoteProperty</string>
+							<string name="ScriptGuid">{D7935820-7A4E-48F8-BC99-FBA2FEC29A95}</string>
+							<ProtectedString name="Source"><![CDATA[-- ClientRemoteProperty
+-- Stephen Leitnick
+-- January 07, 2021
+
+--[[
+
+	remoteProperty = ClientRemoteProperty.new(valueObject: Instance)
+
+	remoteProperty:Get(): any
+	remoteProperty:Destroy(): void
+
+	remoteProperty.Changed(newValue: any): Connection
+
+--]]
+
+
+local IS_SERVER = game:GetService("RunService"):IsServer()
+local Signal = require(script.Parent.Parent.Signal)
+
+local ClientRemoteProperty = {}
+ClientRemoteProperty.__index = ClientRemoteProperty
+
+
+function ClientRemoteProperty.new(object)
+
+	assert(not IS_SERVER, "ClientRemoteProperty can only be created on the client")
+
+	local self = setmetatable({
+		_object = object;
+		_value = nil;
+		_isTable = object:IsA("RemoteEvent");
+	}, ClientRemoteProperty)
+
+	local function SetValue(v)
+		self._value = v
+	end
+
+	if (self._isTable) then
+		self.Changed = Signal.new()
+		self._change = object.OnClientEvent:Connect(function(tbl)
+			SetValue(tbl)
+			self.Changed:Fire(tbl)
+		end)
+		SetValue(object.TableRequest:InvokeServer())
+	else
+		SetValue(object.Value)
+		self.Changed = object.Changed
+		self._change = object.Changed:Connect(SetValue)
+	end
+
+	return self
+
+end
+
+
+function ClientRemoteProperty:Get()
+	return self._value
+end
+
+
+function ClientRemoteProperty:Destroy()
+	self._change:Disconnect()
+	if (self._isTable) then
+		self.Changed:Destroy()
+	end
+end
+
+
+return ClientRemoteProperty
+]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="ModuleScript" referent="14">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">ClientRemoteSignal</string>
+							<string name="ScriptGuid">{25605C0B-7E02-4C0B-A020-5067B5855056}</string>
+							<ProtectedString name="Source"><![CDATA[-- ClientRemoteSignal
+-- Stephen Leitnick
+-- January 07, 2021
+
+--[[
+
+	remoteSignal = ClientRemoteSignal.new(remoteEvent: RemoteEvent)
+
+	remoteSignal:Connect(handler: (...args: any)): Connection
+	remoteSignal:Fire(...args: any): void
+	remoteSignal:Wait(): (...any)
+	remoteSignal:Destroy(): void
+
+--]]
+
+
+local IS_SERVER = game:GetService("RunService"):IsServer()
+
+local Ser = require(script.Parent.Parent.Ser)
+
+--------------------------------------------------------------
+-- Connection
+
+local Connection = {}
+Connection.__index = Connection
+
+function Connection.new(event, connection)
+	local self = setmetatable({
+		_conn = connection;
+		_event = event;
+		Connected = true;
+	}, Connection)
+	return self
+end
+
+function Connection:IsConnected()
+	if (self._conn) then
+		return self._conn.Connected
+	end
+	return false
+end
+
+function Connection:Disconnect()
+	if (self._conn) then
+		self._conn:Disconnect()
+		self._conn = nil
+	end
+	if (not self._event) then return end
+	self.Connected = false
+	local connections = self._event._connections
+	for i,c in ipairs(connections) do
+		if (c == self) then
+			connections[i] = connections[#connections]
+			connections[#connections] = nil
+			break
+		end
+	end
+	self._event = nil
+end
+
+Connection.Destroy = Connection.Disconnect
+
+-- End Connection
+--------------------------------------------------------------
+-- ClientRemoteSignal
+
+local ClientRemoteSignal = {}
+ClientRemoteSignal.__index = ClientRemoteSignal
+
+
+function ClientRemoteSignal.Is(object)
+	return (type(object) == "table" and getmetatable(object) == ClientRemoteSignal)
+end
+
+
+function ClientRemoteSignal.new(remoteEvent)
+	assert(not IS_SERVER, "ClientRemoteSignal can only be created on the client")
+	assert(typeof(remoteEvent) == "Instance", "Argument #1 (RemoteEvent) expected Instance; got " .. typeof(remoteEvent))
+	assert(remoteEvent:IsA("RemoteEvent"), "Argument #1 (RemoteEvent) expected RemoteEvent; got" .. remoteEvent.ClassName)
+	local self = setmetatable({
+		_remote = remoteEvent;
+		_connections = {};
+	}, ClientRemoteSignal)
+	return self
+end
+
+
+function ClientRemoteSignal:Fire(...)
+	self._remote:FireServer(Ser.SerializeArgsAndUnpack(...))
+end
+
+
+function ClientRemoteSignal:Wait()
+	return Ser.DeserializeArgsAndUnpack(self._remote.OnClientEvent:Wait())
+end
+
+
+function ClientRemoteSignal:Connect(handler)
+	local connection = Connection.new(self, self._remote.OnClientEvent:Connect(function(...)
+		handler(Ser.DeserializeArgsAndUnpack(...))
+	end))
+	table.insert(self._connections, connection)
+	return connection
+end
+
+
+function ClientRemoteSignal:Destroy()
+	for _,c in ipairs(self._connections) do
+		if (c._conn) then
+			c._conn:Disconnect()
+		end
+	end
+	self._connections = nil
+	self._remote = nil
+end
+
+
+return ClientRemoteSignal
+]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="ModuleScript" referent="15">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">RemoteProperty</string>
+							<string name="ScriptGuid">{CEE804EB-6A64-4BD0-B99B-8E9DBE721C80}</string>
+							<ProtectedString name="Source"><![CDATA[-- RemoteProperty
+-- Stephen Leitnick
+-- January 07, 2021
+
+--[[
+
+	remoteProperty = RemoteProperty.new(value: any [, overrideClass: string])
+
+	remoteProperty:Get(): any
+	remoteProperty:Set(value: any): void
+	remoteProperty:Replicate(): void   [Only for table values]
+	remoteProperty:Destroy(): void
+
+	remoteProperty.Changed(newValue: any): Connection
+
+--]]
+
+
+local Signal = require(script.Parent.Parent.Signal)
+
+local IS_SERVER = game:GetService("RunService"):IsServer()
+
+local typeClassMap = {
+	boolean = "BoolValue";
+	string = "StringValue";
+	table = "RemoteEvent";
+	CFrame = "CFrameValue";
+	Color3 = "Color3Value";
+	BrickColor = "BrickColorValue";
+	number = "NumberValue";
+	Instance = "ObjectValue";
+	Ray = "RayValue";
+	Vector3 = "Vector3Value";
+	["nil"] = "ObjectValue";
+}
+
+
+local RemoteProperty = {}
+RemoteProperty.__index = RemoteProperty
+
+
+function RemoteProperty.Is(object)
+	return (type(object) == "table" and getmetatable(object) == RemoteProperty)
+end
+
+
+function RemoteProperty.new(value, overrideClass)
+
+	assert(IS_SERVER, "RemoteProperty can only be created on the server")
+
+	if (overrideClass ~= nil) then
+		assert(type(overrideClass) == "string", "OverrideClass must be a string; got " .. type(overrideClass))
+		assert(overrideClass:match("Value$"), "OverrideClass must be of super type ValueBase (e.g. IntValue); got " .. overrideClass)
+	end
+
+	local t = typeof(value)
+	local class = overrideClass or typeClassMap[t]
+	assert(class, "RemoteProperty does not support type \"" .. t .. "\"")
+
+	local self = setmetatable({
+		_value = value;
+		_type = t;
+		_isTable = (t == "table");
+		_object = Instance.new(class);
+	}, RemoteProperty)
+
+	if (self._isTable) then
+		local req = Instance.new("RemoteFunction")
+		req.Name = "TableRequest"
+		req.Parent = self._object
+		function req.OnServerInvoke(_player)
+			return self._value
+		end
+		self.Changed = Signal.new()
+	else
+		self.Changed = self._object.Changed
+	end
+
+	self:Set(value)
+
+	return self
+
+end
+
+
+function RemoteProperty:Replicate()
+	if (self._isTable) then
+		self:Set(self._value)
+	end
+end
+
+
+function RemoteProperty:Set(value)
+	if (self._isTable) then
+		self._object:FireAllClients(value)
+		self.Changed:Fire(value)
+	else
+		self._object.Value = value
+	end
+	self._value = value
+end
+
+
+function RemoteProperty:Get()
+	return self._value
+end
+
+
+function RemoteProperty:Destroy()
+	self._object:Destroy()
+end
+
+
+return RemoteProperty
+]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="ModuleScript" referent="16">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">RemoteSignal</string>
+							<string name="ScriptGuid">{C34FA959-49E7-491C-BF50-F1745EF165EA}</string>
+							<ProtectedString name="Source"><![CDATA[-- RemoteSignal
+-- Stephen Leitnick
+-- January 07, 2021
+
+--[[
+
+	remoteSignal = RemoteSignal.new()
+
+	remoteSignal:Connect(handler: (player: Player, ...args: any) -> void): RBXScriptConnection
+	remoteSignal:Fire(player: Player, ...args: any): void
+	remoteSignal:FireAll(...args: any): void
+	remoteSignal:FireExcept(player: Player, ...args: any): void
+	remoteSignal:Wait(): (...any)
+	remoteSignal:Destroy(): void
+
+--]]
+
+
+local IS_SERVER = game:GetService("RunService"):IsServer()
+
+local Players = game:GetService("Players")
+local Ser = require(script.Parent.Parent.Ser)
+
+local RemoteSignal = {}
+RemoteSignal.__index = RemoteSignal
+
+
+function RemoteSignal.Is(object)
+	return (type(object) == "table" and getmetatable(object) == RemoteSignal)
+end
+
+
+function RemoteSignal.new()
+	assert(IS_SERVER, "RemoteSignal can only be created on the server")
+	local self = setmetatable({
+		_remote = Instance.new("RemoteEvent");
+	}, RemoteSignal)
+	return self
+end
+
+
+function RemoteSignal:Fire(player, ...)
+	self._remote:FireClient(player, Ser.SerializeArgsAndUnpack(...))
+end
+
+
+function RemoteSignal:FireAll(...)
+	self._remote:FireAllClients(Ser.SerializeArgsAndUnpack(...))
+end
+
+
+function RemoteSignal:FireExcept(player, ...)
+	local args = Ser.SerializeArgs(...)
+	for _,plr in ipairs(Players:GetPlayers()) do
+		if (plr ~= player) then
+			self._remote:FireClient(plr, Ser.UnpackArgs(args))
+		end
+	end
+end
+
+
+function RemoteSignal:Wait()
+	return self._remote.OnServerEvent:Wait()
+end
+
+
+function RemoteSignal:Connect(handler)
+	return self._remote.OnServerEvent:Connect(function(player, ...)
+		handler(player, Ser.DeserializeArgsAndUnpack(...))
+	end)
+end
+
+
+function RemoteSignal:Destroy()
+	self._remote:Destroy()
+	self._remote = nil
+end
+
+
+return RemoteSignal
+]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="ModuleScript" referent="17">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Ser</string>
+						<string name="ScriptGuid">{66964717-B54D-47FC-9E7B-F3B75EDDC722}</string>
+						<ProtectedString name="Source"><![CDATA[-- Ser
+-- Stephen Leitnick
+-- August 28, 2020
+
+--[[
+
+	Ser is a serialization/deserialization utility module that is used
+	by Knit to automatically serialize/deserialize values passing
+	through remote functions and remote events.
+
+
+	Ser.Classes = {
+		[ClassName] = {
+			Serialize = (value) -> serializedValue
+			Deserialize = (value) => deserializedValue
+		}
+	}
+
+	Ser.SerializeArgs(...)            -> table
+	Ser.SerializeArgsAndUnpack(...)   -> Tuple
+	Ser.DeserializeArgs(...)          -> table
+	Ser.DeserializeArgsAndUnpack(...) -> Tuple
+	Ser.Serialize(value: any)         -> any
+	Ser.Deserialize(value: any)       -> any
+	Ser.UnpackArgs(args: table)       -> Tuple
+
+--]]
+
+
+local Option = require(script.Parent.Option)
+
+local Ser = {}
+
+Ser.Classes = {
+	Option = {
+		Serialize = function(opt) return opt:Serialize() end;
+		Deserialize = Option.Deserialize;
+	};
+}
+
+
+function Ser.SerializeArgs(...)
+	local args = table.pack(...)
+	for i,arg in ipairs(args) do
+		if (type(arg) == "table") then
+			local ser = Ser.Classes[arg.ClassName]
+			if (ser) then
+				args[i] = ser.Serialize(arg)
+			end
+		end
+	end
+	return args
+end
+
+
+function Ser.SerializeArgsAndUnpack(...)
+	local args = Ser.SerializeArgs(...)
+	return table.unpack(args, 1, args.n)
+end
+
+
+function Ser.DeserializeArgs(...)
+	local args = table.pack(...)
+	for i,arg in ipairs(args) do
+		if (type(arg) == "table") then
+			local ser = Ser.Classes[arg.ClassName]
+			if (ser) then
+				args[i] = ser.Deserialize(arg)
+			end
+		end
+	end
+	return args
+end
+
+
+function Ser.DeserializeArgsAndUnpack(...)
+	local args = Ser.DeserializeArgs(...)
+	return table.unpack(args, 1, args.n)
+end
+
+
+function Ser.Serialize(value)
+	if (type(value) == "table") then
+		local ser = Ser.Classes[value.ClassName]
+		if (ser) then
+			value = ser.Serialize(value)
+		end
+	end
+	return value
+end
+
+
+function Ser.Deserialize(value)
+	if (type(value) == "table") then
+		local ser = Ser.Classes[value.ClassName]
+		if (ser) then
+			value = ser.Deserialize(value)
+		end
+	end
+	return value
+end
+
+
+function Ser.UnpackArgs(args)
+	return table.unpack(args, 1, args.n)
+end
+
+
+return Ser]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="18">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Signal</string>
+						<string name="ScriptGuid">{10F082D3-BC72-4829-8C37-6580682E88BA}</string>
+						<ProtectedString name="Source"><![CDATA[-- Signal
+-- Stephen Leitnick
+-- Based off of Anaminus' Signal class: https://gist.github.com/Anaminus/afd813efc819bad8e560caea28942010
+
+--[[
+
+	signal = Signal.new([maid: Maid])
+	signal = Signal.Proxy(rbxSignal: RBXScriptSignal [, maid: Maid])
+
+	Signal.Is(object: any): boolean
+
+	signal:Fire(...)
+	signal:Wait()
+	signal:WaitPromise()
+	signal:Destroy()
+	signal:DisconnectAll()
+
+	connection = signal:Connect((...) -> void)
+
+	connection:Disconnect()
+	connection:IsConnected()
+
+--]]
+
+local Promise = require(script.Parent.Promise)
+
+local Connection = {}
+Connection.__index = Connection
+
+function Connection.new(signal, connection)
+	local self = setmetatable({
+		_signal = signal;
+		_conn = connection;
+		Connected = true;
+	}, Connection)
+	return self
+end
+
+function Connection:Disconnect()
+	if (self._conn) then
+		self._conn:Disconnect()
+		self._conn = nil
+	end
+	if (not self._signal) then return end
+	self.Connected = false
+	local connections = self._signal._connections
+	local connectionIndex = table.find(connections, self)
+	if (connectionIndex) then
+		local n = #connections
+		connections[connectionIndex] = connections[n]
+		connections[n] = nil
+	end
+	self._signal = nil
+end
+
+function Connection:IsConnected()
+	if (self._conn) then
+		return self._conn.Connected
+	end
+	return false
+end
+
+Connection.Destroy = Connection.Disconnect
+
+--------------------------------------------
+
+local Signal = {}
+Signal.__index = Signal
+
+
+function Signal.new(maid)
+	local self = setmetatable({
+		_bindable = Instance.new("BindableEvent");
+		_connections = {};
+		_args = {};
+		_threads = 0;
+		_id = 0;
+	}, Signal)
+	if (maid) then
+		maid:GiveTask(self)
+	end
+	return self
+end
+
+
+function Signal.Proxy(rbxScriptSignal, maid)
+	assert(typeof(rbxScriptSignal) == "RBXScriptSignal", "Argument #1 must be of type RBXScriptSignal")
+	local signal = Signal.new(maid)
+	signal:_setProxy(rbxScriptSignal)
+	return signal
+end
+
+
+function Signal.Is(obj)
+	return (type(obj) == "table" and getmetatable(obj) == Signal)
+end
+
+
+function Signal:_setProxy(rbxScriptSignal)
+	assert(typeof(rbxScriptSignal) == "RBXScriptSignal", "Argument #1 must be of type RBXScriptSignal")
+	self:_clearProxy()
+	self._proxyHandle = rbxScriptSignal:Connect(function(...)
+		self:Fire(...)
+	end)
+end
+
+
+function Signal:_clearProxy()
+	if (self._proxyHandle) then
+		self._proxyHandle:Disconnect()
+		self._proxyHandle = nil
+	end
+end
+
+
+function Signal:Fire(...)
+	local totalListeners = (#self._connections + self._threads)
+	if (totalListeners == 0) then return end
+	local id = self._id
+	self._id += 1
+	self._args[id] = {totalListeners, {n = select("#", ...), ...}}
+	self._threads = 0
+	self._bindable:Fire(id)
+end
+
+
+function Signal:Wait()
+	self._threads += 1
+	local id = self._bindable.Event:Wait()
+	local args = self._args[id]
+	args[1] -= 1
+	if (args[1] <= 0) then
+		self._args[id] = nil
+	end
+	return table.unpack(args[2], 1, args[2].n)
+end
+
+
+function Signal:WaitPromise()
+	return Promise.new(function(resolve)
+		resolve(self:Wait())
+	end)
+end
+
+
+function Signal:Connect(handler)
+	local connection = Connection.new(self, self._bindable.Event:Connect(function(id)
+		local args = self._args[id]
+		args[1] -= 1
+		if (args[1] <= 0) then
+			self._args[id] = nil
+		end
+		handler(table.unpack(args[2], 1, args[2].n))
+	end))
+	table.insert(self._connections, connection)
+	return connection
+end
+
+
+function Signal:DisconnectAll()
+	for _,c in ipairs(self._connections) do
+		if (c._conn) then
+			c._conn:Disconnect()
+		end
+	end
+	self._connections = {}
+	self._args = {}
+end
+
+
+function Signal:Destroy()
+	self:DisconnectAll()
+	self:_clearProxy()
+	self._bindable:Destroy()
+end
+
+
+return Signal
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="19">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Streamable</string>
+						<string name="ScriptGuid">{3B40F437-F7C5-496C-B4BD-32529E72C22E}</string>
+						<ProtectedString name="Source"><![CDATA[-- Streamable
+-- Stephen Leitnick
+-- March 03, 2021
+
+--[[
+
+	streamable = Streamable.new(parent: Instance, childName: string)
+
+	streamable:Observe(handler: (child: Instance, maid: Maid) -> void): Connection
+	streamable:Destroy()
+
+--]]
+
+
+local Maid = require(script.Parent.Maid)
+local Signal = require(script.Parent.Signal)
+local Thread = require(script.Parent.Thread)
+
+
+local Streamable = {}
+Streamable.__index = Streamable
+
+
+function Streamable.new(parent, childName)
+
+	local self = setmetatable({}, Streamable)
+
+	self._maid = Maid.new()
+	self._shown = Signal.new(self._maid)
+	self._shownMaid = Maid.new()
+	self._maid:GiveTask(self._shownMaid)
+
+	self.Instance = parent:FindFirstChild(childName)
+
+	local function OnInstanceSet()
+		local instance = self.Instance
+		self._shown:Fire(instance, self._shownMaid)
+		self._shownMaid:GiveTask(instance:GetPropertyChangedSignal("Parent"):Connect(function()
+			if (not instance.Parent) then
+				self._shownMaid:DoCleaning()
+			end
+		end))
+		self._shownMaid:GiveTask(function()
+			if (self.Instance == instance) then
+				self.Instance = nil
+			end
+		end)
+	end
+
+	local function OnChildAdded(child)
+		if (child.Name == childName and not self.Instance) then
+			self.Instance = child
+			OnInstanceSet()
+		end
+	end
+
+	self._maid:GiveTask(parent.ChildAdded:Connect(OnChildAdded))
+	if (self.Instance) then
+		OnInstanceSet()
+	end
+
+	return self
+
+end
+
+
+function Streamable:Observe(handler)
+	if (self.Instance) then
+		Thread.SpawnNow(handler, self.Instance, self._shownMaid)
+	end
+	return self._shown:Connect(handler)
+end
+
+
+function Streamable:Destroy()
+	self._maid:Destroy()
+end
+
+
+return Streamable]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="20">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">StreamableUtil</string>
+						<string name="ScriptGuid">{D487D4CA-65AB-4653-9A2E-00A9167FF3EB}</string>
+						<ProtectedString name="Source"><![CDATA[-- StreamableUtil
+-- Stephen Leitnick
+-- March 03, 2021
+
+--[[
+
+	StreamableUtil.Compound(observers: {Observer}, handler: ({[child: string]: Instance}, maid: Maid) -> void): Maid
+
+	Example:
+
+		local streamable1 = Streamable.new(someModel, "SomeChild")
+		local streamable2 = Streamable.new(anotherModel, "AnotherChild")
+
+		StreamableUtil.Compound({S1 = streamable1, S2 = streamable2}, function(streamables, maid)
+			local someChild = streamables.S1.Instance
+			local anotherChild = streamables.S2.Instance
+			maid:GiveTask(function()
+				-- Cleanup
+			end)
+		end)
+
+--]]
+
+
+local Maid = require(script.Parent.Maid)
+
+
+local StreamableUtil = {}
+
+
+function StreamableUtil.Compound(streamables, handler)
+	local compoundMaid = Maid.new()
+	local observeAllMaid = Maid.new()
+	local allAvailable = false
+	local function Check()
+		if (allAvailable) then return end
+		for _,streamable in pairs(streamables) do
+			if (not streamable.Instance) then
+				return
+			end
+		end
+		allAvailable = true
+		handler(streamables, observeAllMaid)
+	end
+	local function Cleanup()
+		if (not allAvailable) then return end
+		allAvailable = false
+		observeAllMaid:DoCleaning()
+	end
+	for _,streamable in pairs(streamables) do
+		compoundMaid:GiveTask(streamable:Observe(function(_child, maid)
+			Check()
+			maid:GiveTask(Cleanup)
+		end))
+	end
+	compoundMaid:GiveTask(Cleanup)
+	return compoundMaid
+end
+
+
+return StreamableUtil]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="21">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Symbol</string>
+						<string name="ScriptGuid">{8B26973C-D996-4D47-9190-ECB0E9FFD2A7}</string>
+						<ProtectedString name="Source"><![CDATA[-- Symbol
+-- Stephen Leitnick
+-- December 27, 2020
+
+--[[
+
+	symbol = Symbol.new(id: string [, scope: Symbol])
+
+	Symbol.Is(obj: any): boolean
+	Symbol.IsInScope(obj: any, scope: Symbol): boolean
+
+--]]
+
+
+local CLASSNAME = "Symbol"
+
+local Symbol = {}
+Symbol.__index = Symbol
+
+
+function Symbol.new(id, scope)
+	assert(id ~= nil, "Symbol ID cannot be nil")
+	if (scope ~= nil) then
+		assert(Symbol.Is(scope), "Scope must be a Symbol or nil")
+	end
+	local self = setmetatable({
+		ClassName = CLASSNAME;
+		_id = id;
+		_scope = scope;
+	}, Symbol)
+	return self
+end
+
+
+function Symbol.Is(obj)
+	return (type(obj) == "table" and getmetatable(obj) == Symbol)
+end
+
+
+function Symbol.IsInScope(obj, scope)
+	return (Symbol.Is(obj) and obj._scope == scope)
+end
+
+
+function Symbol:__tostring()
+	return ("Symbol<%s>"):format(self._id)
+end
+
+
+return Symbol]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="22">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">TableUtil</string>
+						<string name="ScriptGuid">{23FECA65-CA74-4971-B25B-605E35A607E2}</string>
+						<ProtectedString name="Source"><![CDATA[-- Table Util
+-- Stephen Leitnick
+-- September 13, 2017
+
+--[[
+
+	TableUtil.Copy(tbl: table): table
+	TableUtil.CopyShallow(tbl: table): table
+	TableUtil.Sync(tbl: table, template: table): void
+	TableUtil.FastRemove(tbl: table, index: number): void
+	TableUtil.FastRemoveFirstValue(tbl: table, value: any): (boolean, number)
+	TableUtil.Map(tbl: table, callback: (value: any) -> any): table
+	TableUtil.Filter(tbl: table, callback: (value: any) -> boolean): table
+	TableUtil.Reduce(tbl: table, callback: (accum: number, value: number) -> number [, initialValue: number]): number
+	TableUtil.Assign(target: table, ...sources: table): table
+	TableUtil.Extend(tbl: table, extension: table): table
+	TableUtil.Reverse(tbl: table): table
+	TableUtil.Shuffle(tbl: table [, rng: Random]): table
+	TableUtil.Flat(tbl: table [, maxDepth: number = 1]): table
+	TableUtil.FlatMap(tbl: callback: (value: any) -> table): table
+	TableUtil.Keys(tbl: table): table
+	TableUtil.Find(tbl: table, callback: (value: any) -> boolean): (any, number)
+	TableUtil.Every(tbl: table, callback: (value: any) -> boolean): boolean
+	TableUtil.Some(tbl: table, callback: (value: any) -> boolean): boolean
+	TableUtil.IsEmpty(tbl: table): boolean
+	TableUtil.EncodeJSON(tbl: table): string
+	TableUtil.DecodeJSON(json: string): table
+
+--]]
+
+
+local TableUtil = {}
+
+local HttpService = game:GetService("HttpService")
+local rng = Random.new()
+
+
+local function CopyTable(t)
+	assert(type(t) == "table", "First argument must be a table")
+	local function Copy(tbl)
+		local tCopy = table.create(#tbl)
+		for k,v in pairs(tbl) do
+			if (type(v) == "table") then
+				tCopy[k] = Copy(v)
+			else
+				tCopy[k] = v
+			end
+		end
+		return tCopy
+	end
+	return Copy(t)
+end
+
+
+local function CopyTableShallow(t)
+	local tCopy = table.create(#t)
+	if (#t > 0) then
+		table.move(t, 1, #t, 1, tCopy)
+	else
+		for k,v in pairs(t) do tCopy[k] = v end
+	end
+	return tCopy
+end
+
+
+local function Sync(srcTbl, templateTbl)
+
+	assert(type(srcTbl) == "table", "First argument must be a table")
+	assert(type(templateTbl) == "table", "Second argument must be a table")
+
+	local tbl = CopyTableShallow(srcTbl)
+
+	-- If 'tbl' has something 'templateTbl' doesn't, then remove it from 'tbl'
+	-- If 'tbl' has something of a different type than 'templateTbl', copy from 'templateTbl'
+	-- If 'templateTbl' has something 'tbl' doesn't, then add it to 'tbl'
+	for k,v in pairs(tbl) do
+
+		local vTemplate = templateTbl[k]
+
+		-- Remove keys not within template:
+		if (vTemplate == nil) then
+			tbl[k] = nil
+
+		-- Synchronize data types:
+		elseif (type(v) ~= type(vTemplate)) then
+			if (type(vTemplate) == "table") then
+				tbl[k] = CopyTable(vTemplate)
+			else
+				tbl[k] = vTemplate
+			end
+
+		-- Synchronize sub-tables:
+		elseif (type(v) == "table") then
+			tbl[k] = Sync(v, vTemplate)
+		end
+
+	end
+
+	-- Add any missing keys:
+	for k,vTemplate in pairs(templateTbl) do
+
+		local v = tbl[k]
+
+		if (v == nil) then
+			if (type(vTemplate) == "table") then
+				tbl[k] = CopyTable(vTemplate)
+			else
+				tbl[k] = vTemplate
+			end
+		end
+
+	end
+
+	return tbl
+
+end
+
+
+local function FastRemove(t, i)
+	local n = #t
+	t[i] = t[n]
+	t[n] = nil
+end
+
+
+local function FastRemoveFirstValue(t, v)
+	local index = table.find(t, v)
+	if (index) then
+		FastRemove(t, index)
+		return true, index
+	end
+	return false, nil
+end
+
+
+local function Map(t, f)
+	assert(type(t) == "table", "First argument must be a table")
+	assert(type(f) == "function", "Second argument must be a function")
+	local newT = table.create(#t)
+	for k,v in pairs(t) do
+		newT[k] = f(v, k, t)
+	end
+	return newT
+end
+
+
+local function Filter(t, f)
+	assert(type(t) == "table", "First argument must be a table")
+	assert(type(f) == "function", "Second argument must be a function")
+	local newT = table.create(#t)
+	if (#t > 0) then
+		local n = 0
+		for i,v in ipairs(t) do
+			if (f(v, i, t)) then
+				n += 1
+				newT[n] = v
+			end
+		end
+	else
+		for k,v in pairs(t) do
+			if (f(v, k, t)) then
+				newT[k] = v
+			end
+		end
+	end
+	return newT
+end
+
+
+local function Reduce(t, f, init)
+	assert(type(t) == "table", "First argument must be a table")
+	assert(type(f) == "function", "Second argument must be a function")
+	assert(init == nil or type(init) == "number", "Third argument must be a number or nil")
+	local result = (init or 0)
+	for k,v in pairs(t) do
+		result = f(result, v, k, t)
+	end
+	return result
+end
+
+
+local function Assign(target, ...)
+	local tbl = CopyTableShallow(target)
+	for _,src in ipairs({...}) do
+		for k,v in pairs(src) do
+			tbl[k] = v
+		end
+	end
+	return tbl
+end
+
+
+local function Extend(target, extension)
+	local tbl = CopyTableShallow(target)
+	for _,v in ipairs(extension) do
+		table.insert(tbl, v)
+	end
+	return tbl
+end
+
+
+local function Reverse(tbl)
+	local n = #tbl
+	local tblRev = table.create(n)
+	for i = 1,n do
+		tblRev[i] = tbl[n - i + 1]
+	end
+	return tblRev
+end
+
+
+local function Shuffle(tbl, rngOverride)
+	assert(type(tbl) == "table", "First argument must be a table")
+	local shuffled = CopyTableShallow(tbl)
+	local random = (rngOverride or rng)
+	for i = #tbl, 2, -1 do
+		local j = random:NextInteger(1, i)
+		shuffled[i], shuffled[j] = shuffled[j], shuffled[i]
+	end
+	return shuffled
+end
+
+
+local function Flat(tbl, depth)
+	depth = (depth or 1)
+	local flatTbl = table.create(#tbl)
+	local function Scan(t, d)
+		for _,v in ipairs(t) do
+			if (type(v) == "table" and d < depth) then
+				Scan(v, d + 1)
+			else
+				table.insert(flatTbl, v)
+			end
+		end
+	end
+	Scan(tbl, 0)
+	return flatTbl
+end
+
+
+local function FlatMap(tbl, callback)
+	return Flat(Map(tbl, callback))
+end
+
+
+local function Keys(tbl)
+	local keys = table.create(#tbl)
+	for k in pairs(tbl) do
+		table.insert(keys, k)
+	end
+	return keys
+end
+
+
+local function Find(tbl, callback)
+	for k,v in pairs(tbl) do
+		if (callback(v, k, tbl)) then
+			return v, k
+		end
+	end
+	return nil, nil
+end
+
+
+local function Every(tbl, callback)
+	for k,v in pairs(tbl) do
+		if (not callback(v, k, tbl)) then
+			return false
+		end
+	end
+	return true
+end
+
+
+local function Some(tbl, callback)
+	for k,v in pairs(tbl) do
+		if (callback(v, k, tbl)) then
+			return true
+		end
+	end
+	return false
+end
+
+
+local function IsEmpty(tbl)
+	return (next(tbl) == nil)
+end
+
+
+local function EncodeJSON(tbl)
+	return HttpService:JSONEncode(tbl)
+end
+
+
+local function DecodeJSON(str)
+	return HttpService:JSONDecode(str)
+end
+
+
+TableUtil.Copy = CopyTable
+TableUtil.CopyShallow = CopyTableShallow
+TableUtil.Sync = Sync
+TableUtil.FastRemove = FastRemove
+TableUtil.FastRemoveFirstValue = FastRemoveFirstValue
+TableUtil.Map = Map
+TableUtil.Filter = Filter
+TableUtil.Reduce = Reduce
+TableUtil.Assign = Assign
+TableUtil.Extend = Extend
+TableUtil.Reverse = Reverse
+TableUtil.Shuffle = Shuffle
+TableUtil.Flat = Flat
+TableUtil.FlatMap = FlatMap
+TableUtil.Keys = Keys
+TableUtil.Find = Find
+TableUtil.Every = Every
+TableUtil.Some = Some
+TableUtil.IsEmpty = IsEmpty
+TableUtil.EncodeJSON = EncodeJSON
+TableUtil.DecodeJSON = DecodeJSON
+
+
+return TableUtil
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="23">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Thread</string>
+						<string name="ScriptGuid">{69088D8E-26BB-47DB-BE96-3E4A420B697F}</string>
+						<ProtectedString name="Source"><![CDATA[-- Thread
+-- Stephen Leitnick
+-- January 5, 2020
+
+--[[
+
+	Thread.DelayRepeatBehavior { Delayed, Immediate }
+
+	Thread.SpawnNow(func: (...any): void [, ...any]): void
+	Thread.Spawn(func: (...any): void [, ...any]): Connection
+	Thread.Delay(waitTime: number, func: (...any): void [, ...any]): Connection
+	Thread.DelayRepeat(waitTime: number, func: (...any): void [, behavior: DelayRepeatBehavior, ...any]): Connection
+
+	SpawnNow(func: (...any): void [, ...args])
+
+		>	Uses a BindableEvent to spawn a new thread
+			immediately. More performance-intensive than
+			using Thread.Spawn, but will guarantee a
+			thread is started immediately.
+
+		>	Use this only if the thread must be executed
+			right away, otherwise use Thread.Spawn for
+			the sake of performance.
+
+	Spawn(func: (...any): void [, ...args])
+
+		>	Uses RunService's Heartbeat to spawn a new
+			thread on the next heartbeat and then
+			call the given function.
+
+		>	Better performance than Thread.SpawnNow, but
+			will have a short delay of 1 frame before
+			calling the function.
+
+	Delay(waitTime: number, func: (...any): void [, ...args])
+
+		>	The same as Thread.Spawn, but waits to call
+			the function until the in-game time as elapsed
+			by 'waitTime' amount.
+
+		>	Returns the connection to the Heartbeat event,
+			so the delay can be cancelled by disconnecting
+			the returned connection.
+
+	DelayRepeat(intervalTime: number, func: (...any): void [, behavior: DelayRepeatBehavior, ...args])
+
+		>	The same as Thread.Delay, except it repeats
+			indefinitely.
+
+		>	Returns the Heartbeat connection, thus the
+			repeated delay can be stopped by disconnecting
+			the returned connection.
+
+		>	Properly bound to the time interval, thus will
+			not experience drift.
+
+		>	If DelayRepeatBehavior is Delayed (default behavior),
+			then the function will first fire after an initial
+			delay. If set to Immediate, the function will fire
+			immediately before the first delay.
+
+
+	Examples:
+
+		Thread.Spawn(function()
+			print("Hello from Spawn")
+		end)
+
+		Thread.Delay(1, function()
+			print("Hello from Delay")
+		end)
+
+		Thread.SpawnNow(function()
+			print("Hello from SpawnNow")
+		end)
+
+		local delayConnection = Thread.Delay(5, function()
+			print("Hello?")
+		end)
+		delayConnection:Disconnect()
+
+		local repeatConnection = Thread.DelayRepeat(1, function()
+			print("Hello again", time())
+		end, Thread.DelayRepeatBehavior.Delayed)
+		wait(5)
+		repeatConnection:Disconnect()
+
+
+	Why:
+
+		The built-in 'spawn' and 'delay' functions have the
+		potential to be throttled unknowingly. This can cause
+		all sorts of problems. Developers need to be certain
+		when their code is going to run. This small library
+		helps give the same functionality as 'spawn' and 'delay'
+		but with the expected behavior.
+
+	Why not coroutines:
+
+		Coroutines are powerful, but can be extremely difficult
+		to debug due to the ways that coroutines obscure the
+		stack trace.
+
+	Credit:
+
+		evaera & buildthomas: https://devforum.roblox.com/t/coroutines-v-s-spawn-which-one-should-i-use/368966
+		Quenty: FastSpawn (AKA SpawnNow) method using BindableEvent
+
+--]]
+
+
+local EnumList = require(script.Parent.EnumList)
+
+local Thread = {}
+
+local heartbeat = game:GetService("RunService").Heartbeat
+
+Thread.DelayRepeatBehavior = EnumList.new("DelayRepeatBehavior", {
+	"Delayed";
+	"Immediate";
+})
+
+
+function Thread.SpawnNow(func, ...)
+	--[[
+		This method was originally written by Quenty and is slightly
+		modified for this module. The original source can be found in
+		the link below, as well as the MIT license:
+			https://github.com/Quenty/NevermoreEngine/blob/version2/Modules/Shared/Utility/fastSpawn.lua
+			https://github.com/Quenty/NevermoreEngine/blob/version2/LICENSE.md
+	--]]
+	local args = table.pack(...)
+	local bindable = Instance.new("BindableEvent")
+	bindable.Event:Connect(function() func(table.unpack(args, 1, args.n)) end)
+	bindable:Fire()
+	bindable:Destroy()
+end
+
+
+function Thread.Spawn(func, ...)
+	local args = table.pack(...)
+	local hb
+	hb = heartbeat:Connect(function()
+		hb:Disconnect()
+		func(table.unpack(args, 1, args.n))
+	end)
+	return hb
+end
+
+
+function Thread.Delay(waitTime, func, ...)
+	local args = table.pack(...)
+	local executeTime = (time() + waitTime)
+	local hb
+	hb = heartbeat:Connect(function()
+		if (time() >= executeTime) then
+			hb:Disconnect()
+			func(table.unpack(args, 1, args.n))
+		end
+	end)
+	return hb
+end
+
+
+function Thread.DelayRepeat(intervalTime, func, behavior, ...)
+	local args = table.pack(...)
+	if (behavior == nil) then
+		behavior = Thread.DelayRepeatBehavior.Delayed
+	end
+	assert(Thread.DelayRepeatBehavior:Is(behavior), "Invalid behavior")
+	local immediate = (behavior == Thread.DelayRepeatBehavior.Immediate)
+	local nextExecuteTime = (time() + (immediate and 0 or intervalTime))
+	local hb
+	hb = heartbeat:Connect(function()
+		if (time() >= nextExecuteTime) then
+			nextExecuteTime = (time() + intervalTime)
+			func(table.unpack(args, 1, args.n))
+		end
+	end)
+	return hb
+end
+
+
+return Thread]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="StringValue" referent="24">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Version</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<string name="Value">0.0.18-alpha</string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Folder" referent="RBX938779E19AF4417598A49B4A6AED9C14">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Structures</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Part" referent="RBX1B0AA60E4FD54B97AC0F654058CD54E1">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>-64.5528564</X>
+						<Y>8.39999199</Y>
+						<Z>-11.638854</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<bool name="CanTouch">true</bool>
+					<bool name="CastShadow">true</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<bool name="Massless">false</bool>
+					<token name="Material">800</token>
+					<string name="Name">StoneWall</string>
+					<CoordinateFrame name="PivotOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">35161866</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>1</X>
+						<Y>16.8000069</Y>
+						<Z>20</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBXF417E366042341C6AF00403EE861F35A">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>-68.3028564</X>
+						<Y>3.15002155</Y>
+						<Z>-17.888855</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<bool name="CanTouch">true</bool>
+					<bool name="CastShadow">true</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4286340166</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<bool name="Massless">false</bool>
+					<token name="Material">528</token>
+					<string name="Name">WoodWall</string>
+					<CoordinateFrame name="PivotOffset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">35161866</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>7.5</X>
+						<Y>6.30000687</Y>
+						<Z>7.5</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LuaWebService" referent="RBX0344DC42E1914C5AA7288CEFCB1825B6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="0">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="Brightness">2</float>
+			<Color3 name="ColorShift_Bottom">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="EnvironmentDiffuseScale">0</float>
+			<float name="EnvironmentSpecularScale">0</float>
+			<float name="ExposureCompensation">0</float>
+			<Color3 name="FogColor">
+				<R>0.75</R>
+				<G>0.75</G>
+				<B>0.75</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>0.5</R>
+				<G>0.5</G>
+				<B>0.5</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<float name="ShadowSoftness">0.5</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">1</token>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+	<Item class="LanguageService" referent="RBXEB289956A02547B28CE5F0381AAD21D8">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LanguageService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="RBX759779A29D3E4AC2B85E52305A9CECCF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<SharedStrings>
+		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
+	</SharedStrings>
+</roblox>
